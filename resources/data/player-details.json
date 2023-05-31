@@ -1,0 +1,1842 @@
+{
+  "status": 1,
+  "message": "Process data success",
+  "data": {
+      "player_id": "1",
+      "player_photo": "https://tipsscore.com/resb/player/nathan-redmond.png",
+      "player_name": "Nathan Redmond",
+      "player_country": "england",
+      "team_photo": "https://tipsscore.com/resb/team/besiktas.png",
+      "team_name": "Beşiktaş",
+      "team_slug": "besiktas",
+      "indicators": [
+          {
+              "key": "Age",
+              "value": "29"
+          },
+          {
+              "key": "Date of birth",
+              "value": "1994-03-06"
+          },
+          {
+              "key": "Height",
+              "value": "1.73 m."
+          },
+          {
+              "key": "Weight",
+              "value": "69 kg."
+          },
+          {
+              "key": "Nationality",
+              "value": "ENG"
+          },
+          {
+              "key": "Market price",
+              "value": "19,4M+ EUR"
+          },
+          {
+              "key": "Preferred foot",
+              "value": "Right"
+          },
+          {
+              "key": "Main position",
+              "value": "Midfielder"
+          },
+          {
+              "key": "Player number",
+              "value": "15"
+          },
+          {
+              "key": "Rating",
+              "value": "56,5"
+          }
+      ],
+      "rating": [
+          {
+              "key": "Attacking",
+              "value": "65%"
+          },
+          {
+              "key": "Technical",
+              "value": "63%"
+          },
+          {
+              "key": "Defending",
+              "value": "31%"
+          },
+          {
+              "key": "Tactical",
+              "value": "38%"
+          },
+          {
+              "key": "Creativity",
+              "value": "68%"
+          }
+      ],
+      "statistics": [
+          {
+              "league": "Premier League 20/21",
+              "data": [
+                  {
+                      "section": "Matches",
+                      "data": [
+                          {
+                              "key": "Total played",
+                              "value": "29"
+                          },
+                          {
+                              "key": "Started",
+                              "value": "17"
+                          },
+                          {
+                              "key": "Minutes per game",
+                              "value": "60"
+                          }
+                      ]
+                  },
+                  {
+                      "section": "Attacking",
+                      "data": [
+                          {
+                              "key": "Goals",
+                              "value": "2"
+                          },
+                          {
+                              "key": "Scoring frequency",
+                              "value": "869 min"
+                          },
+                          {
+                              "key": "Goals per game",
+                              "value": "0.07"
+                          },
+                          {
+                              "key": "Shots per game",
+                              "value": "1.6"
+                          },
+                          {
+                              "key": "Big chances missed",
+                              "value": "2"
+                          },
+                          {
+                              "key": "Goal conversion",
+                              "value": "4%"
+                          },
+                          {
+                              "key": "Penalty goals",
+                              "value": "0/0"
+                          },
+                          {
+                              "key": "Penalty conversion",
+                              "value": "0%"
+                          },
+                          {
+                              "key": "Free kick goals",
+                              "value": "0/0"
+                          },
+                          {
+                              "key": "Free kick conversion",
+                              "value": "0%"
+                          },
+                          {
+                              "key": "From inside the box",
+                              "value": "2/29"
+                          },
+                          {
+                              "key": "From outside the box",
+                              "value": "0/16"
+                          },
+                          {
+                              "key": "Headed goals",
+                              "value": "0"
+                          },
+                          {
+                              "key": "Left foot goals",
+                              "value": "0"
+                          },
+                          {
+                              "key": "Right foot goals",
+                              "value": "2"
+                          },
+                          {
+                              "key": "Penalties won",
+                              "value": "0"
+                          }
+                      ]
+                  },
+                  {
+                      "section": "Passes",
+                      "data": [
+                          {
+                              "key": "Assists",
+                              "value": "3"
+                          },
+                          {
+                              "key": "Touches",
+                              "value": "37.7"
+                          },
+                          {
+                              "key": "Big chances created",
+                              "value": "6"
+                          },
+                          {
+                              "key": "Key passes",
+                              "value": "1.0"
+                          },
+                          {
+                              "key": "Accurate per game",
+                              "value": "18.4 (77%)"
+                          },
+                          {
+                              "key": "Acc. own half",
+                              "value": "6.3 (82%)"
+                          },
+                          {
+                              "key": "Acc. opposition half",
+                              "value": "12.3 (71%)"
+                          },
+                          {
+                              "key": "Acc. long balls",
+                              "value": "0.7 (47%)"
+                          },
+                          {
+                              "key": "Acc. chipped passes",
+                              "value": "0.6 (58%)"
+                          },
+                          {
+                              "key": "Acc. crosses",
+                              "value": "0.1 (14%)"
+                          }
+                      ]
+                  },
+                  {
+                      "section": "Defending",
+                      "data": [
+                          {
+                              "key": "Interceptions per game",
+                              "value": "0.4"
+                          },
+                          {
+                              "key": "Tackles per game",
+                              "value": "1.0"
+                          },
+                          {
+                              "key": "Possession won (final third)",
+                              "value": "0.8"
+                          },
+                          {
+                              "key": "Dribbled past per game",
+                              "value": "0.6"
+                          },
+                          {
+                              "key": "Clearances per game",
+                              "value": "0.3"
+                          },
+                          {
+                              "key": "Error leading to shot",
+                              "value": "0"
+                          },
+                          {
+                              "key": "Error leading to goal",
+                              "value": "0"
+                          },
+                          {
+                              "key": "Penalty committed",
+                              "value": "1"
+                          }
+                      ]
+                  },
+                  {
+                      "section": "Other (per game)",
+                      "data": [
+                          {
+                              "key": "Succ. dribbles",
+                              "value": "1.3 (57%)"
+                          },
+                          {
+                              "key": "Total duels won",
+                              "value": "3.2 (40%)"
+                          },
+                          {
+                              "key": "Ground duels won",
+                              "value": "2.9 (43%)"
+                          },
+                          {
+                              "key": "Aerial duels won",
+                              "value": "0.3 (28%)"
+                          },
+                          {
+                              "key": "Possession lost",
+                              "value": "10.7"
+                          },
+                          {
+                              "key": "Fouls",
+                              "value": "1.1"
+                          },
+                          {
+                              "key": "Was fouled",
+                              "value": "0.5"
+                          },
+                          {
+                              "key": "Offsides",
+                              "value": "0.1"
+                          }
+                      ]
+                  },
+                  {
+                      "section": "Cards",
+                      "data": [
+                          {
+                              "key": "Yellow",
+                              "value": "1"
+                          },
+                          {
+                              "key": "Yellow-Red",
+                              "value": "0"
+                          },
+                          {
+                              "key": "Red",
+                              "value": "0"
+                          }
+                      ]
+                  }
+              ]
+          },
+          {
+              "league": "EFL Cup 20/21",
+              "data": [
+                  {
+                      "section": "Matches",
+                      "data": [
+                          {
+                              "key": "Total played",
+                              "value": "1"
+                          },
+                          {
+                              "key": "Started",
+                              "value": "1"
+                          },
+                          {
+                              "key": "Minutes per game",
+                              "value": "71"
+                          }
+                      ]
+                  },
+                  {
+                      "section": "Attacking",
+                      "data": [
+                          {
+                              "key": "Goals",
+                              "value": "0"
+                          },
+                          {
+                              "key": "Goals per game",
+                              "value": "0.0"
+                          },
+                          {
+                              "key": "Shots per game",
+                              "value": "0.0"
+                          },
+                          {
+                              "key": "Big chances missed",
+                              "value": "0"
+                          },
+                          {
+                              "key": "Goal conversion",
+                              "value": "0%"
+                          },
+                          {
+                              "key": "Penalty goals",
+                              "value": "0/0"
+                          },
+                          {
+                              "key": "Penalty conversion",
+                              "value": "0%"
+                          },
+                          {
+                              "key": "Free kick goals",
+                              "value": "0/0"
+                          },
+                          {
+                              "key": "Free kick conversion",
+                              "value": "0%"
+                          },
+                          {
+                              "key": "From inside the box",
+                              "value": "0/0"
+                          },
+                          {
+                              "key": "From outside the box",
+                              "value": "0/0"
+                          },
+                          {
+                              "key": "Headed goals",
+                              "value": "0"
+                          },
+                          {
+                              "key": "Left foot goals",
+                              "value": "0"
+                          },
+                          {
+                              "key": "Right foot goals",
+                              "value": "0"
+                          },
+                          {
+                              "key": "Penalties won",
+                              "value": "0"
+                          }
+                      ]
+                  },
+                  {
+                      "section": "Passes",
+                      "data": [
+                          {
+                              "key": "Assists",
+                              "value": "0"
+                          },
+                          {
+                              "key": "Touches",
+                              "value": "27.0"
+                          },
+                          {
+                              "key": "Big chances created",
+                              "value": "0"
+                          },
+                          {
+                              "key": "Key passes",
+                              "value": "1.0"
+                          },
+                          {
+                              "key": "Accurate per game",
+                              "value": "16.0 (70%)"
+                          },
+                          {
+                              "key": "Acc. own half",
+                              "value": "3.0 (50%)"
+                          },
+                          {
+                              "key": "Acc. opposition half",
+                              "value": "13.0 (76%)"
+                          },
+                          {
+                              "key": "Acc. long balls",
+                              "value": "0.0 (0%)"
+                          },
+                          {
+                              "key": "Acc. chipped passes",
+                              "value": "0.0 (0%)"
+                          },
+                          {
+                              "key": "Acc. crosses",
+                              "value": "0.0 (0%)"
+                          }
+                      ]
+                  },
+                  {
+                      "section": "Defending",
+                      "data": [
+                          {
+                              "key": "Interceptions per game",
+                              "value": "0.0"
+                          },
+                          {
+                              "key": "Tackles per game",
+                              "value": "0.0"
+                          },
+                          {
+                              "key": "Possession won (final third)",
+                              "value": "0.0"
+                          },
+                          {
+                              "key": "Dribbled past per game",
+                              "value": "1.0"
+                          },
+                          {
+                              "key": "Clearances per game",
+                              "value": "0.0"
+                          },
+                          {
+                              "key": "Error leading to shot",
+                              "value": "1"
+                          },
+                          {
+                              "key": "Error leading to goal",
+                              "value": "0"
+                          },
+                          {
+                              "key": "Penalty committed",
+                              "value": "0"
+                          }
+                      ]
+                  },
+                  {
+                      "section": "Other (per game)",
+                      "data": [
+                          {
+                              "key": "Succ. dribbles",
+                              "value": "2.0 (100%)"
+                          },
+                          {
+                              "key": "Total duels won",
+                              "value": "3.0 (43%)"
+                          },
+                          {
+                              "key": "Ground duels won",
+                              "value": "2.0 (67%)"
+                          },
+                          {
+                              "key": "Aerial duels won",
+                              "value": "1.0 (25%)"
+                          },
+                          {
+                              "key": "Possession lost",
+                              "value": "9.0"
+                          },
+                          {
+                              "key": "Fouls",
+                              "value": "0.0"
+                          },
+                          {
+                              "key": "Was fouled",
+                              "value": "0.0"
+                          },
+                          {
+                              "key": "Offsides",
+                              "value": "0.0"
+                          }
+                      ]
+                  },
+                  {
+                      "section": "Cards",
+                      "data": [
+                          {
+                              "key": "Yellow",
+                              "value": "0"
+                          },
+                          {
+                              "key": "Yellow-Red",
+                              "value": "0"
+                          },
+                          {
+                              "key": "Red",
+                              "value": "0"
+                          }
+                      ]
+                  }
+              ]
+          },
+          {
+              "league": "FA Cup 20/21",
+              "data": [
+                  {
+                      "section": "Matches",
+                      "data": [
+                          {
+                              "key": "Total played",
+                              "value": "3"
+                          },
+                          {
+                              "key": "Started",
+                              "value": "3"
+                          },
+                          {
+                              "key": "Minutes per game",
+                              "value": "80"
+                          }
+                      ]
+                  },
+                  {
+                      "section": "Attacking",
+                      "data": [
+                          {
+                              "key": "Goals",
+                              "value": "2"
+                          },
+                          {
+                              "key": "Scoring frequency",
+                              "value": "120 min"
+                          },
+                          {
+                              "key": "Goals per game",
+                              "value": "0.7"
+                          }
+                      ]
+                  },
+                  {
+                      "section": "Cards",
+                      "data": [
+                          {
+                              "key": "Yellow",
+                              "value": "0"
+                          },
+                          {
+                              "key": "Yellow-Red",
+                              "value": "0"
+                          },
+                          {
+                              "key": "Red",
+                              "value": "0"
+                          }
+                      ]
+                  }
+              ]
+          },
+          {
+              "league": "Premier League 21/22",
+              "data": [
+                  {
+                      "section": "Matches",
+                      "data": [
+                          {
+                              "key": "Total played",
+                              "value": "27"
+                          },
+                          {
+                              "key": "Started",
+                              "value": "20"
+                          },
+                          {
+                              "key": "Minutes per game",
+                              "value": "68"
+                          }
+                      ]
+                  },
+                  {
+                      "section": "Attacking",
+                      "data": [
+                          {
+                              "key": "Goals",
+                              "value": "1"
+                          },
+                          {
+                              "key": "Scoring frequency",
+                              "value": "1843 min"
+                          },
+                          {
+                              "key": "Goals per game",
+                              "value": "0.04"
+                          },
+                          {
+                              "key": "Shots per game",
+                              "value": "1.0"
+                          },
+                          {
+                              "key": "Big chances missed",
+                              "value": "1"
+                          },
+                          {
+                              "key": "Goal conversion",
+                              "value": "4%"
+                          },
+                          {
+                              "key": "Penalty goals",
+                              "value": "0/0"
+                          },
+                          {
+                              "key": "Penalty conversion",
+                              "value": "0%"
+                          },
+                          {
+                              "key": "Free kick goals",
+                              "value": "0/1"
+                          },
+                          {
+                              "key": "Free kick conversion",
+                              "value": "0%"
+                          },
+                          {
+                              "key": "From inside the box",
+                              "value": "1/10"
+                          },
+                          {
+                              "key": "From outside the box",
+                              "value": "0/16"
+                          },
+                          {
+                              "key": "Headed goals",
+                              "value": "0"
+                          },
+                          {
+                              "key": "Left foot goals",
+                              "value": "0"
+                          },
+                          {
+                              "key": "Right foot goals",
+                              "value": "1"
+                          },
+                          {
+                              "key": "Penalties won",
+                              "value": "0"
+                          }
+                      ]
+                  },
+                  {
+                      "section": "Passes",
+                      "data": [
+                          {
+                              "key": "Assists",
+                              "value": "5"
+                          },
+                          {
+                              "key": "Touches",
+                              "value": "36.0"
+                          },
+                          {
+                              "key": "Big chances created",
+                              "value": "7"
+                          },
+                          {
+                              "key": "Key passes",
+                              "value": "1.3"
+                          },
+                          {
+                              "key": "Accurate per game",
+                              "value": "18.1 (73%)"
+                          },
+                          {
+                              "key": "Acc. own half",
+                              "value": "5.3 (80%)"
+                          },
+                          {
+                              "key": "Acc. opposition half",
+                              "value": "13.5 (66%)"
+                          },
+                          {
+                              "key": "Acc. long balls",
+                              "value": "0.9 (37%)"
+                          },
+                          {
+                              "key": "Acc. chipped passes",
+                              "value": "0.8 (42%)"
+                          },
+                          {
+                              "key": "Acc. crosses",
+                              "value": "0.7 (30%)"
+                          }
+                      ]
+                  },
+                  {
+                      "section": "Defending",
+                      "data": [
+                          {
+                              "key": "Interceptions per game",
+                              "value": "0.3"
+                          },
+                          {
+                              "key": "Tackles per game",
+                              "value": "0.8"
+                          },
+                          {
+                              "key": "Possession won (final third)",
+                              "value": "0.7"
+                          },
+                          {
+                              "key": "Dribbled past per game",
+                              "value": "0.9"
+                          },
+                          {
+                              "key": "Clearances per game",
+                              "value": "0.5"
+                          },
+                          {
+                              "key": "Error leading to shot",
+                              "value": "0"
+                          },
+                          {
+                              "key": "Error leading to goal",
+                              "value": "0"
+                          },
+                          {
+                              "key": "Penalty committed",
+                              "value": "0"
+                          }
+                      ]
+                  },
+                  {
+                      "section": "Other (per game)",
+                      "data": [
+                          {
+                              "key": "Succ. dribbles",
+                              "value": "0.8 (54%)"
+                          },
+                          {
+                              "key": "Total duels won",
+                              "value": "2.6 (41%)"
+                          },
+                          {
+                              "key": "Ground duels won",
+                              "value": "2.1 (45%)"
+                          },
+                          {
+                              "key": "Aerial duels won",
+                              "value": "0.5 (29%)"
+                          },
+                          {
+                              "key": "Possession lost",
+                              "value": "10.8"
+                          },
+                          {
+                              "key": "Fouls",
+                              "value": "0.6"
+                          },
+                          {
+                              "key": "Was fouled",
+                              "value": "0.6"
+                          },
+                          {
+                              "key": "Offsides",
+                              "value": "0.1"
+                          }
+                      ]
+                  },
+                  {
+                      "section": "Cards",
+                      "data": [
+                          {
+                              "key": "Yellow",
+                              "value": "0"
+                          },
+                          {
+                              "key": "Yellow-Red",
+                              "value": "0"
+                          },
+                          {
+                              "key": "Red",
+                              "value": "0"
+                          }
+                      ]
+                  }
+              ]
+          },
+          {
+              "league": "EFL Cup 21/22",
+              "data": [
+                  {
+                      "section": "Matches",
+                      "data": [
+                          {
+                              "key": "Total played",
+                              "value": "2"
+                          },
+                          {
+                              "key": "Started",
+                              "value": "2"
+                          },
+                          {
+                              "key": "Minutes per game",
+                              "value": "68"
+                          }
+                      ]
+                  },
+                  {
+                      "section": "Attacking",
+                      "data": [
+                          {
+                              "key": "Goals",
+                              "value": "1"
+                          },
+                          {
+                              "key": "Scoring frequency",
+                              "value": "135 min"
+                          },
+                          {
+                              "key": "Goals per game",
+                              "value": "0.5"
+                          },
+                          {
+                              "key": "Shots per game",
+                              "value": "2.0"
+                          },
+                          {
+                              "key": "Big chances missed",
+                              "value": "0"
+                          },
+                          {
+                              "key": "Goal conversion",
+                              "value": "25%"
+                          },
+                          {
+                              "key": "Penalty goals",
+                              "value": "0/0"
+                          },
+                          {
+                              "key": "Penalty conversion",
+                              "value": "0%"
+                          },
+                          {
+                              "key": "Free kick goals",
+                              "value": "0/0"
+                          },
+                          {
+                              "key": "Free kick conversion",
+                              "value": "0%"
+                          },
+                          {
+                              "key": "From inside the box",
+                              "value": "0/2"
+                          },
+                          {
+                              "key": "From outside the box",
+                              "value": "1/2"
+                          },
+                          {
+                              "key": "Headed goals",
+                              "value": "0"
+                          },
+                          {
+                              "key": "Left foot goals",
+                              "value": "0"
+                          },
+                          {
+                              "key": "Right foot goals",
+                              "value": "1"
+                          },
+                          {
+                              "key": "Penalties won",
+                              "value": "0"
+                          }
+                      ]
+                  },
+                  {
+                      "section": "Passes",
+                      "data": [
+                          {
+                              "key": "Assists",
+                              "value": "1"
+                          },
+                          {
+                              "key": "Touches",
+                              "value": "51.5"
+                          },
+                          {
+                              "key": "Big chances created",
+                              "value": "0"
+                          },
+                          {
+                              "key": "Key passes",
+                              "value": "3.0"
+                          },
+                          {
+                              "key": "Accurate per game",
+                              "value": "31.0 (83%)"
+                          },
+                          {
+                              "key": "Acc. own half",
+                              "value": "11.5 (100%)"
+                          },
+                          {
+                              "key": "Acc. opposition half",
+                              "value": "21.5 (70%)"
+                          },
+                          {
+                              "key": "Acc. long balls",
+                              "value": "3.0 (67%)"
+                          },
+                          {
+                              "key": "Acc. chipped passes",
+                              "value": "1.5 (50%)"
+                          },
+                          {
+                              "key": "Acc. crosses",
+                              "value": "2.0 (44%)"
+                          }
+                      ]
+                  },
+                  {
+                      "section": "Defending",
+                      "data": [
+                          {
+                              "key": "Interceptions per game",
+                              "value": "0.0"
+                          },
+                          {
+                              "key": "Tackles per game",
+                              "value": "1.5"
+                          },
+                          {
+                              "key": "Possession won (final third)",
+                              "value": "1.5"
+                          },
+                          {
+                              "key": "Dribbled past per game",
+                              "value": "0.5"
+                          },
+                          {
+                              "key": "Clearances per game",
+                              "value": "0.0"
+                          },
+                          {
+                              "key": "Error leading to shot",
+                              "value": "0"
+                          },
+                          {
+                              "key": "Error leading to goal",
+                              "value": "0"
+                          },
+                          {
+                              "key": "Penalty committed",
+                              "value": "0"
+                          }
+                      ]
+                  },
+                  {
+                      "section": "Other (per game)",
+                      "data": [
+                          {
+                              "key": "Succ. dribbles",
+                              "value": "1.0 (50%)"
+                          },
+                          {
+                              "key": "Total duels won",
+                              "value": "3.0 (46%)"
+                          },
+                          {
+                              "key": "Ground duels won",
+                              "value": "3.0 (46%)"
+                          },
+                          {
+                              "key": "Aerial duels won",
+                              "value": "0.0 (0%)"
+                          },
+                          {
+                              "key": "Possession lost",
+                              "value": "12.5"
+                          },
+                          {
+                              "key": "Fouls",
+                              "value": "0.5"
+                          },
+                          {
+                              "key": "Was fouled",
+                              "value": "0.5"
+                          },
+                          {
+                              "key": "Offsides",
+                              "value": "0.0"
+                          }
+                      ]
+                  },
+                  {
+                      "section": "Cards",
+                      "data": [
+                          {
+                              "key": "Yellow",
+                              "value": "0"
+                          },
+                          {
+                              "key": "Yellow-Red",
+                              "value": "0"
+                          },
+                          {
+                              "key": "Red",
+                              "value": "0"
+                          }
+                      ]
+                  }
+              ]
+          },
+          {
+              "league": "FA Cup 21/22",
+              "data": [
+                  {
+                      "section": "Matches",
+                      "data": [
+                          {
+                              "key": "Total played",
+                              "value": "3"
+                          },
+                          {
+                              "key": "Started",
+                              "value": "1"
+                          },
+                          {
+                              "key": "Minutes per game",
+                              "value": "53"
+                          }
+                      ]
+                  },
+                  {
+                      "section": "Attacking",
+                      "data": [
+                          {
+                              "key": "Goals",
+                              "value": "1"
+                          },
+                          {
+                              "key": "Scoring frequency",
+                              "value": "160 min"
+                          },
+                          {
+                              "key": "Goals per game",
+                              "value": "0.3"
+                          }
+                      ]
+                  },
+                  {
+                      "section": "Cards",
+                      "data": [
+                          {
+                              "key": "Yellow",
+                              "value": "0"
+                          },
+                          {
+                              "key": "Yellow-Red",
+                              "value": "0"
+                          },
+                          {
+                              "key": "Red",
+                              "value": "0"
+                          }
+                      ]
+                  }
+              ]
+          },
+          {
+              "league": "Premier League 22/23",
+              "data": [
+                  {
+                      "section": "Matches",
+                      "data": [
+                          {
+                              "key": "Total played",
+                              "value": "1"
+                          },
+                          {
+                              "key": "Started",
+                              "value": "0"
+                          },
+                          {
+                              "key": "Minutes per game",
+                              "value": "1"
+                          }
+                      ]
+                  },
+                  {
+                      "section": "Attacking",
+                      "data": [
+                          {
+                              "key": "Goals",
+                              "value": "0"
+                          },
+                          {
+                              "key": "Goals per game",
+                              "value": "0.0"
+                          },
+                          {
+                              "key": "Shots per game",
+                              "value": "0.0"
+                          },
+                          {
+                              "key": "Big chances missed",
+                              "value": "0"
+                          },
+                          {
+                              "key": "Goal conversion",
+                              "value": "0%"
+                          },
+                          {
+                              "key": "Penalty goals",
+                              "value": "0/0"
+                          },
+                          {
+                              "key": "Penalty conversion",
+                              "value": "0%"
+                          },
+                          {
+                              "key": "Free kick goals",
+                              "value": "0/0"
+                          },
+                          {
+                              "key": "Free kick conversion",
+                              "value": "0%"
+                          },
+                          {
+                              "key": "From inside the box",
+                              "value": "0/0"
+                          },
+                          {
+                              "key": "From outside the box",
+                              "value": "0/0"
+                          },
+                          {
+                              "key": "Headed goals",
+                              "value": "0"
+                          },
+                          {
+                              "key": "Left foot goals",
+                              "value": "0"
+                          },
+                          {
+                              "key": "Right foot goals",
+                              "value": "0"
+                          },
+                          {
+                              "key": "Penalties won",
+                              "value": "0"
+                          }
+                      ]
+                  },
+                  {
+                      "section": "Passes",
+                      "data": [
+                          {
+                              "key": "Assists",
+                              "value": "0"
+                          },
+                          {
+                              "key": "Touches",
+                              "value": "1.0"
+                          },
+                          {
+                              "key": "Big chances created",
+                              "value": "0"
+                          },
+                          {
+                              "key": "Key passes",
+                              "value": "0.0"
+                          },
+                          {
+                              "key": "Accurate per game",
+                              "value": "0.0 (0%)"
+                          },
+                          {
+                              "key": "Acc. own half",
+                              "value": "0.0 (0%)"
+                          },
+                          {
+                              "key": "Acc. opposition half",
+                              "value": "0.0 (0%)"
+                          },
+                          {
+                              "key": "Acc. long balls",
+                              "value": "0.0 (0%)"
+                          },
+                          {
+                              "key": "Acc. chipped passes",
+                              "value": "0.0 (0%)"
+                          },
+                          {
+                              "key": "Acc. crosses",
+                              "value": "0.0 (0%)"
+                          }
+                      ]
+                  },
+                  {
+                      "section": "Defending",
+                      "data": [
+                          {
+                              "key": "Interceptions per game",
+                              "value": "0.0"
+                          },
+                          {
+                              "key": "Tackles per game",
+                              "value": "0.0"
+                          },
+                          {
+                              "key": "Possession won (final third)",
+                              "value": "0.0"
+                          },
+                          {
+                              "key": "Dribbled past per game",
+                              "value": "0.0"
+                          },
+                          {
+                              "key": "Clearances per game",
+                              "value": "0.0"
+                          },
+                          {
+                              "key": "Error leading to shot",
+                              "value": "0"
+                          },
+                          {
+                              "key": "Error leading to goal",
+                              "value": "0"
+                          },
+                          {
+                              "key": "Penalty committed",
+                              "value": "0"
+                          }
+                      ]
+                  },
+                  {
+                      "section": "Other (per game)",
+                      "data": [
+                          {
+                              "key": "Succ. dribbles",
+                              "value": "0.0 (0%)"
+                          },
+                          {
+                              "key": "Total duels won",
+                              "value": "0.0 (0%)"
+                          },
+                          {
+                              "key": "Ground duels won",
+                              "value": "0.0 (0%)"
+                          },
+                          {
+                              "key": "Aerial duels won",
+                              "value": "0.0 (0%)"
+                          },
+                          {
+                              "key": "Possession lost",
+                              "value": "1.0"
+                          },
+                          {
+                              "key": "Fouls",
+                              "value": "0.0"
+                          },
+                          {
+                              "key": "Was fouled",
+                              "value": "0.0"
+                          },
+                          {
+                              "key": "Offsides",
+                              "value": "0.0"
+                          }
+                      ]
+                  },
+                  {
+                      "section": "Cards",
+                      "data": [
+                          {
+                              "key": "Yellow",
+                              "value": "0"
+                          },
+                          {
+                              "key": "Yellow-Red",
+                              "value": "0"
+                          },
+                          {
+                              "key": "Red",
+                              "value": "0"
+                          }
+                      ]
+                  }
+              ]
+          },
+          {
+              "league": "Super Lig 22/23",
+              "data": [
+                  {
+                      "section": "Matches",
+                      "data": [
+                          {
+                              "key": "Total played",
+                              "value": "10"
+                          },
+                          {
+                              "key": "Started",
+                              "value": "2"
+                          },
+                          {
+                              "key": "Minutes per game",
+                              "value": "45"
+                          }
+                      ]
+                  },
+                  {
+                      "section": "Attacking",
+                      "data": [
+                          {
+                              "key": "Goals",
+                              "value": "0"
+                          },
+                          {
+                              "key": "Goals per game",
+                              "value": "0.0"
+                          },
+                          {
+                              "key": "Shots per game",
+                              "value": "1.2"
+                          },
+                          {
+                              "key": "Big chances missed",
+                              "value": "1"
+                          },
+                          {
+                              "key": "Goal conversion",
+                              "value": "0%"
+                          },
+                          {
+                              "key": "Penalty goals",
+                              "value": "0/0"
+                          },
+                          {
+                              "key": "Penalty conversion",
+                              "value": "0%"
+                          },
+                          {
+                              "key": "Free kick goals",
+                              "value": "0/2"
+                          },
+                          {
+                              "key": "Free kick conversion",
+                              "value": "0%"
+                          },
+                          {
+                              "key": "From inside the box",
+                              "value": "0/5"
+                          },
+                          {
+                              "key": "From outside the box",
+                              "value": "0/7"
+                          },
+                          {
+                              "key": "Headed goals",
+                              "value": "0"
+                          },
+                          {
+                              "key": "Left foot goals",
+                              "value": "0"
+                          },
+                          {
+                              "key": "Right foot goals",
+                              "value": "0"
+                          },
+                          {
+                              "key": "Penalties won",
+                              "value": "0"
+                          }
+                      ]
+                  },
+                  {
+                      "section": "Passes",
+                      "data": [
+                          {
+                              "key": "Assists",
+                              "value": "1"
+                          },
+                          {
+                              "key": "Touches",
+                              "value": "26.9"
+                          },
+                          {
+                              "key": "Big chances created",
+                              "value": "1"
+                          },
+                          {
+                              "key": "Key passes",
+                              "value": "1.0"
+                          },
+                          {
+                              "key": "Accurate per game",
+                              "value": "11.8 (71%)"
+                          },
+                          {
+                              "key": "Acc. own half",
+                              "value": "3.3 (80%)"
+                          },
+                          {
+                              "key": "Acc. opposition half",
+                              "value": "9.6 (61%)"
+                          },
+                          {
+                              "key": "Acc. long balls",
+                              "value": "1.3 (45%)"
+                          },
+                          {
+                              "key": "Acc. chipped passes",
+                              "value": "0.8 (44%)"
+                          },
+                          {
+                              "key": "Acc. crosses",
+                              "value": "1.1 (35%)"
+                          }
+                      ]
+                  },
+                  {
+                      "section": "Defending",
+                      "data": [
+                          {
+                              "key": "Interceptions per game",
+                              "value": "0.3"
+                          },
+                          {
+                              "key": "Tackles per game",
+                              "value": "0.9"
+                          },
+                          {
+                              "key": "Possession won (final third)",
+                              "value": "0.3"
+                          },
+                          {
+                              "key": "Dribbled past per game",
+                              "value": "0.2"
+                          },
+                          {
+                              "key": "Clearances per game",
+                              "value": "0.3"
+                          },
+                          {
+                              "key": "Error leading to shot",
+                              "value": "0"
+                          },
+                          {
+                              "key": "Error leading to goal",
+                              "value": "0"
+                          },
+                          {
+                              "key": "Penalty committed",
+                              "value": "0"
+                          }
+                      ]
+                  },
+                  {
+                      "section": "Other (per game)",
+                      "data": [
+                          {
+                              "key": "Succ. dribbles",
+                              "value": "0.7 (50%)"
+                          },
+                          {
+                              "key": "Total duels won",
+                              "value": "2.1 (53%)"
+                          },
+                          {
+                              "key": "Ground duels won",
+                              "value": "1.9 (51%)"
+                          },
+                          {
+                              "key": "Aerial duels won",
+                              "value": "0.2 (67%)"
+                          },
+                          {
+                              "key": "Possession lost",
+                              "value": "9.2"
+                          },
+                          {
+                              "key": "Fouls",
+                              "value": "0.4"
+                          },
+                          {
+                              "key": "Was fouled",
+                              "value": "0.3"
+                          },
+                          {
+                              "key": "Offsides",
+                              "value": "0.1"
+                          }
+                      ]
+                  },
+                  {
+                      "section": "Cards",
+                      "data": [
+                          {
+                              "key": "Yellow",
+                              "value": "3"
+                          },
+                          {
+                              "key": "Yellow-Red",
+                              "value": "0"
+                          },
+                          {
+                              "key": "Red",
+                              "value": "0"
+                          }
+                      ]
+                  }
+              ]
+          }
+      ],
+      "about": "Nathan Redmond\n\nPlayer Nathan Redmond.\n\n\nNathan Redmond  born  6-го марта 1994, currently him 29.\nPhysical indicators: height 1.73 m. Weight 69kg.\nPlayer Nationality: ENG.\n\n\n\nNathan Redmond is currently playing in a team\n\nBeşiktaş\n.\nMain position: midfielder.\n\n\n\nGame number in starting lineups: 15.\nIn the transfer market, the current estimated value of the player Nathan Redmond  is 19 400 000 EUR, which exceeds the weighted average market price of transfers.\n\n\nRecently Nathan Redmondtook part in 25 matches for the team Beşiktaş.",
+      "events": [
+          {
+              "league_name": "Süper Lig",
+              "league_logo": "https://tipsscore.com/resb/league/turkey-super-lig.png",
+              "league_slug": "turkey-super-lig",
+              "matches": [
+                  {
+                      "date": "2023-02-26",
+                      "home_score": "0",
+                      "away_score": "0",
+                      "home_name": "Beşiktaş",
+                      "away_name": "Antalyaspor",
+                      "slug": "2023-02-26-besiktas-antalyaspor",
+                      "round": "Round 14"
+                  },
+                  {
+                      "date": "2023-03-05",
+                      "home_score": "2",
+                      "away_score": "1",
+                      "home_name": "Beşiktaş",
+                      "away_name": "MKE Ankaragücü",
+                      "slug": "2023-03-05-besiktas-mke-ankaragucu",
+                      "round": "Round 24"
+                  }
+              ]
+          },
+          {
+              "league_name": "Türkiye Kupası",
+              "league_logo": "https://tipsscore.com/resb/league/turkey-turkiye-kupasi.png",
+              "league_slug": "turkey-turkiye-kupasi",
+              "matches": [
+                  {
+                      "date": "2023-01-18",
+                      "home_score": "1",
+                      "away_score": "1",
+                      "home_name": "MKE Ankaragücü",
+                      "away_name": "Beşiktaş",
+                      "slug": "2023-01-17-mke-ankaragucu-besiktas",
+                      "round": "Round 8"
+                  }
+              ]
+          },
+          {
+              "league_name": "Club Friendly Games",
+              "league_logo": "https://tipsscore.com/resb/league/world-club-friendly-games.png",
+              "league_slug": "world-club-friendly-games",
+              "matches": [
+                  {
+                      "date": "2022-12-15",
+                      "home_score": "5",
+                      "away_score": "3",
+                      "home_name": "Beşiktaş",
+                      "away_name": "Giresunspor",
+                      "slug": "2022-12-15-besiktas-giresunspor",
+                      "round": "Round 1"
+                  },
+                  {
+                      "date": "2022-12-11",
+                      "home_score": "1",
+                      "away_score": "0",
+                      "home_name": "Beşiktaş",
+                      "away_name": "KVC Westerlo",
+                      "slug": "2022-12-11-besiktas-jk-kvc-westerlo",
+                      "round": "Round 1"
+                  },
+                  {
+                      "date": "2022-12-08",
+                      "home_score": "2",
+                      "away_score": "1",
+                      "home_name": "Beşiktaş",
+                      "away_name": "RC Sporting Charleroi",
+                      "slug": "2022-12-08-besiktas-jk-rc-sporting-charleroi",
+                      "round": "Round 1"
+                  },
+                  {
+                      "date": "2022-12-02",
+                      "home_score": "1",
+                      "away_score": "1",
+                      "home_name": "Beşiktaş",
+                      "away_name": "Fatih Karagümrük",
+                      "slug": "2022-12-02-besiktas-jk-fatih-karagumruk",
+                      "round": "Round 1"
+                  },
+                  {
+                      "date": "2022-11-29",
+                      "home_score": "4",
+                      "away_score": "0",
+                      "home_name": "Beşiktaş",
+                      "away_name": "İstanbulspor",
+                      "slug": "2022-11-29-besiktas-jk-istanbulspor",
+                      "round": "Round 1"
+                  }
+              ]
+          },
+          {
+              "league_name": "Türkiye Kupası",
+              "league_logo": "https://tipsscore.com/resb/league/turkey-turkiye-kupasi.png",
+              "league_slug": "turkey-turkiye-kupasi",
+              "matches": [
+                  {
+                      "date": "2022-12-21",
+                      "home_score": "4",
+                      "away_score": "2",
+                      "home_name": "Beşiktaş",
+                      "away_name": "Şanlıurfaspor",
+                      "slug": "2022-12-20-besiktas-jk-sanliurfaspor",
+                      "round": "Round 5"
+                  },
+                  {
+                      "date": "2022-11-09",
+                      "home_score": "3",
+                      "away_score": "1",
+                      "home_name": "Beşiktaş",
+                      "away_name": "Serik Belediyespor",
+                      "slug": "2022-11-08-besiktas-jk-serik-belediyespor",
+                      "round": "Round 4"
+                  }
+              ]
+          },
+          {
+              "league_name": "Süper Lig",
+              "league_logo": "https://tipsscore.com/resb/league/turkey-super-lig.png",
+              "league_slug": "turkey-super-lig",
+              "matches": [
+                  {
+                      "date": "2023-01-31",
+                      "home_score": "1",
+                      "away_score": "1",
+                      "home_name": "Fatih Karagümrük",
+                      "away_name": "Beşiktaş",
+                      "slug": "2023-02-01-fatih-karagumruk-besiktas-jk",
+                      "round": "Round 22"
+                  },
+                  {
+                      "date": "2023-01-22",
+                      "home_score": "0",
+                      "away_score": "2",
+                      "home_name": "Kayserispor",
+                      "away_name": "Beşiktaş",
+                      "slug": "2023-01-22-kayserispor-besiktas-jk",
+                      "round": "Round 20"
+                  },
+                  {
+                      "date": "2023-01-14",
+                      "home_score": "1",
+                      "away_score": "2",
+                      "home_name": "Konyaspor",
+                      "away_name": "Beşiktaş",
+                      "slug": "2023-01-15-konyaspor-besiktas-jk",
+                      "round": "Round 19"
+                  },
+                  {
+                      "date": "2023-01-14",
+                      "home_score": "1",
+                      "away_score": "2",
+                      "home_name": "Konyaspor",
+                      "away_name": "Beşiktaş",
+                      "slug": "2023-01-15-konyaspor-besiktas-jk",
+                      "round": "Round 19"
+                  },
+                  {
+                      "date": "2023-01-07",
+                      "home_score": "2",
+                      "away_score": "1",
+                      "home_name": "Beşiktaş",
+                      "away_name": "Kasımpaşa",
+                      "slug": "2023-01-08-besiktas-jk-kasimpasa",
+                      "round": "Round 18"
+                  },
+                  {
+                      "date": "2022-12-29",
+                      "home_score": "1",
+                      "away_score": "0",
+                      "home_name": "Beşiktaş",
+                      "away_name": "Adana Demirspor",
+                      "slug": "2022-12-28-besiktas-jk-adana-demirspor",
+                      "round": "Round 16"
+                  },
+                  {
+                      "date": "2022-12-25",
+                      "home_score": "1",
+                      "away_score": "1",
+                      "home_name": "Gaziantep FK",
+                      "away_name": "Beşiktaş",
+                      "slug": "2022-12-25-gaziantep-fk-besiktas-jk",
+                      "round": "Round 15"
+                  },
+                  {
+                      "date": "2022-11-05",
+                      "home_score": "2",
+                      "away_score": "1",
+                      "home_name": "Galatasaray",
+                      "away_name": "Beşiktaş",
+                      "slug": "2022-11-06-galatasaray-besiktas-jk",
+                      "round": "Round 13"
+                  },
+                  {
+                      "date": "2022-10-30",
+                      "home_score": "5",
+                      "away_score": "2",
+                      "home_name": "Beşiktaş",
+                      "away_name": "Ümraniyespor",
+                      "slug": "2022-10-30-besiktas-jk-umraniyespor",
+                      "round": "Round 12"
+                  },
+                  {
+                      "date": "2022-10-24",
+                      "home_score": "2",
+                      "away_score": "1",
+                      "home_name": "Hatayspor",
+                      "away_name": "Beşiktaş",
+                      "slug": "2022-10-23-hatayspor-besiktas-jk",
+                      "round": "Round 11"
+                  },
+                  {
+                      "date": "2022-10-16",
+                      "home_score": "2",
+                      "away_score": "2",
+                      "home_name": "Beşiktaş",
+                      "away_name": "Trabzonspor",
+                      "slug": "2022-10-16-besiktas-jk-trabzonspor",
+                      "round": "Round 10"
+                  },
+                  {
+                      "date": "2022-10-08",
+                      "home_score": "0",
+                      "away_score": "1",
+                      "home_name": "Giresunspor",
+                      "away_name": "Beşiktaş",
+                      "slug": "2022-10-09-giresunspor-besiktas-jk",
+                      "round": "Round 9"
+                  },
+                  {
+                      "date": "2022-10-02",
+                      "home_score": "0",
+                      "away_score": "0",
+                      "home_name": "Beşiktaş",
+                      "away_name": "Fenerbahçe",
+                      "slug": "2022-10-02-besiktas-jk-fenerbahce",
+                      "round": "Round 8"
+                  },
+                  {
+                      "date": "2022-09-17",
+                      "home_score": "2",
+                      "away_score": "2",
+                      "home_name": "İstanbulspor",
+                      "away_name": "Beşiktaş",
+                      "slug": "2022-09-18-istanbulspor-besiktas-jk",
+                      "round": "Round 7"
+                  },
+                  {
+                      "date": "2022-09-12",
+                      "home_score": "0",
+                      "away_score": "1",
+                      "home_name": "Beşiktaş",
+                      "away_name": "Başakşehir FK",
+                      "slug": "2022-09-11-besiktas-jk-basaksehir-fk",
+                      "round": "Round 6"
+                  }
+              ]
+          }
+      ],
+      "medias": [
+          {
+              "preview": "https://i.ytimg.com/vi/akqcCBUkZIg/mqdefault.jpg",
+              "video": "https://www.youtube.com/watch?v=akqcCBUkZIg",
+              "title": "Nathan Redmond reveals what Pep Guardiola told him in their on the pitch incident | Making It Pro",
+              "subtitle": "SUBSCRIBE ▻ http://bit.ly/SSFootballSub PREMIER LEAGUE HIGHLIGHTS ▻ http://bit.ly/SkySportsPLHighlights Nathan Redmond talks about his career so far ...",
+              "date": "2021-07-27"
+          },
+          {
+              "preview": "https://i.ytimg.com/vi/UGiqtrqdqrs/mqdefault.jpg",
+              "video": "https://www.youtube.com/watch?v=UGiqtrqdqrs",
+              "title": "Nathan Redmond ● Norwich City ● Goals, Skills &amp; Assists 2014 HD",
+              "subtitle": "A compilation of Nathan Redmond a player that plays for Norwich City. The video showcases his goals, skills and assists. Nathan Redmond ○ Norwich City ...",
+              "date": "2021-07-27"
+          },
+          {
+              "preview": "https://i.ytimg.com/vi/KkyyN13E4Jg/mqdefault.jpg",
+              "video": "https://www.youtube.com/watch?v=KkyyN13E4Jg",
+              "title": "Nathan Redmond •  Fantastic Dribble • Genius Goals • Southampton",
+              "subtitle": "Dear viewers, write your comments, like and don't forget to subscribe to the channel ...",
+              "date": "2021-07-27"
+          },
+          {
+              "preview": "https://i.ytimg.com/vi/vxiltHmAk50/mqdefault.jpg",
+              "video": "https://www.youtube.com/watch?v=vxiltHmAk50",
+              "title": "PLAYER FOCUS | Nathan Redmond a Class Above | AFC Bournemouth v Southampton | Emirates FA Cup 20-21",
+              "subtitle": "There could only be one Player of the Match in this quarter-final fixture. Nathan Redmond scores a brace and assists as the Saints book their place at Wembley ...",
+              "date": "2021-07-20"
+          },
+          {
+              "preview": "https://i.ytimg.com/vi/UGiqtrqdqrs/mqdefault.jpg",
+              "video": "https://www.youtube.com/watch?v=UGiqtrqdqrs",
+              "title": "Nathan Redmond ● Norwich City ● Goals, Skills &amp; Assists 2014 HD",
+              "subtitle": "A compilation of Nathan Redmond a player that plays for Norwich City. The video showcases his goals, skills and assists. Nathan Redmond ○ Norwich City ...",
+              "date": "2021-07-20"
+          }
+      ]
+  }
+}
+

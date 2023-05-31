@@ -1,0 +1,1805 @@
+{
+  "status": 1,
+  "message": "Process data success",
+  "data": [
+      {
+          "id": "1",
+          "sport_id": "1",
+          "slug": "nathan-redmond",
+          "name": "Nathan Redmond",
+          "name_translations": {
+              "en": "Nathan Redmond"
+          },
+          "name_short": "N. Redmond",
+          "photo": "https://tipsscore.com/resb/player/nathan-redmond.png",
+          "position": "M",
+          "position_name": "Midfielder",
+          "weight": "69",
+          "age": "28",
+          "date_birth_at": "1994-03-06",
+          "height": "1.73",
+          "shirt_number": "15",
+          "preferred_foot": "Right",
+          "nationality_code": "ENG",
+          "flag": "england",
+          "market_currency": "EUR",
+          "market_value": "19400000",
+          "contract_until": "",
+          "rating": "55.30",
+          "characteristics": {
+              "positive": [
+                  {
+                      "feature": "High pressing",
+                      "value": 651
+                  }
+              ],
+              "negative": [
+                  {
+                      "feature": "Aerial duels",
+                      "value": 559
+                  }
+              ]
+          },
+          "ability": [
+              {
+                  "name": "Attacking",
+                  "value": 66,
+                  "full_average": 54
+              },
+              {
+                  "name": "Technical",
+                  "value": 60,
+                  "full_average": 54
+              },
+              {
+                  "name": "Defending",
+                  "value": 29,
+                  "full_average": 45
+              },
+              {
+                  "name": "Tactical",
+                  "value": 36,
+                  "full_average": 45
+              },
+              {
+                  "name": "Creativity",
+                  "value": 68,
+                  "full_average": 55
+              }
+          ],
+          "team_id": "4358",
+          "team_category_id": "35",
+          "team_venue_id": "1576",
+          "team_manager_id": "3763",
+          "team_slug": "besiktas",
+          "team_name": "Beşiktaş",
+          "team_logo": "https://tipsscore.com/resb/team/besiktas.png",
+          "team_name_translations": {
+              "en": "Beşiktaş",
+              "ru": "Бешикташ",
+              "de": "Besiktas JK",
+              "es": "Besiktas",
+              "fr": "Besiktas",
+              "zh": "贝西克塔斯",
+              "tr": "Beşiktaş İstanbul",
+              "el": "Μπεσίκτας",
+              "it": "Besiktas",
+              "nl": "Besiktas",
+              "pt": "Besiktas JK"
+          },
+          "team_name_short": "Beşiktaş",
+          "team_name_full": "Beşiktaş",
+          "team_name_code": "BES",
+          "team_has_sub": "0",
+          "team_gender": "M",
+          "team_is_nationality": "0",
+          "team_country_code": "TUR",
+          "team_country": "Turkey",
+          "team_flag": "turkey",
+          "team_foundation": "",
+          "updated": "2022-12-12 14:07:31"
+      },
+      {
+          "id": "2",
+          "sport_id": "1",
+          "slug": "danny-ings",
+          "name": "Danny Ings",
+          "name_translations": {
+              "en": "Danny Ings"
+          },
+          "name_short": "D. Ings",
+          "photo": "https://tipsscore.com/resb/player/danny-ings.png",
+          "position": "F",
+          "position_name": "Forward",
+          "weight": "73",
+          "age": "30",
+          "date_birth_at": "1992-07-23",
+          "height": "1.78",
+          "shirt_number": "9",
+          "preferred_foot": "Right",
+          "nationality_code": "ENG",
+          "flag": "england",
+          "market_currency": "EUR",
+          "market_value": "17400000",
+          "contract_until": "",
+          "rating": "53.30",
+          "characteristics": {
+              "negative": [
+                  {
+                      "feature": "Ground duels",
+                      "value": 745
+                  }
+              ]
+          },
+          "ability": [
+              {
+                  "name": "Attacking",
+                  "value": 74,
+                  "full_average": 65
+              },
+              {
+                  "name": "Technical",
+                  "value": 53,
+                  "full_average": 52
+              },
+              {
+                  "name": "Defending",
+                  "value": 26,
+                  "full_average": 31
+              },
+              {
+                  "name": "Tactical",
+                  "value": 43,
+                  "full_average": 45
+              },
+              {
+                  "name": "Creativity",
+                  "value": 53,
+                  "full_average": 50
+              }
+          ],
+          "team_id": "5",
+          "team_category_id": "40",
+          "team_venue_id": "5",
+          "team_manager_id": "5069",
+          "team_slug": "aston-villa",
+          "team_name": "Aston Villa",
+          "team_logo": "https://tipsscore.com/resb/team/aston-villa.png",
+          "team_name_translations": {
+              "en": "Aston Villa",
+              "ru": "Астон Вилла",
+              "de": "Aston Villa Birmingham FC",
+              "es": "Aston Villa",
+              "fr": "Aston Villa",
+              "zh": "阿斯顿维拉",
+              "tr": "Aston Villa",
+              "el": "Άστον Βίλα",
+              "it": "Aston Villa",
+              "nl": "Aston Villa",
+              "pt": "Aston Villa FC"
+          },
+          "team_name_short": "Aston Villa",
+          "team_name_full": "Aston Villa",
+          "team_name_code": "AVL",
+          "team_has_sub": "0",
+          "team_gender": "M",
+          "team_is_nationality": "0",
+          "team_country_code": "ENG",
+          "team_country": "England",
+          "team_flag": "england",
+          "team_foundation": "",
+          "updated": "2022-12-12 14:07:31"
+      },
+      {
+          "id": "3",
+          "sport_id": "1",
+          "slug": "che-adams",
+          "name": "Che Adams",
+          "name_translations": {
+              "en": "Che Adams"
+          },
+          "name_short": "C. Adams",
+          "photo": "https://tipsscore.com/resb/player/che-adams.png",
+          "position": "F",
+          "position_name": "Forward",
+          "weight": "66",
+          "age": "26",
+          "date_birth_at": "1996-07-13",
+          "height": "1.78",
+          "shirt_number": "10",
+          "preferred_foot": "Right",
+          "nationality_code": "SCO",
+          "flag": "scotland",
+          "market_currency": "EUR",
+          "market_value": "11500000",
+          "contract_until": "",
+          "rating": "55.70",
+          "characteristics": {
+              "positive": [
+                  {
+                      "feature": "Anchor play",
+                      "value": 363
+                  },
+                  {
+                      "feature": "Long balls",
+                      "value": 843
+                  }
+              ],
+              "negative": [
+                  {
+                      "feature": "Passing",
+                      "value": 1147
+                  }
+              ]
+          },
+          "ability": [
+              {
+                  "name": "Attacking",
+                  "value": 72,
+                  "full_average": 65
+              },
+              {
+                  "name": "Technical",
+                  "value": 59,
+                  "full_average": 52
+              },
+              {
+                  "name": "Defending",
+                  "value": 19,
+                  "full_average": 31
+              },
+              {
+                  "name": "Tactical",
+                  "value": 50,
+                  "full_average": 45
+              },
+              {
+                  "name": "Creativity",
+                  "value": 61,
+                  "full_average": 50
+              }
+          ],
+          "team_id": "1",
+          "team_category_id": "40",
+          "team_venue_id": "1",
+          "team_manager_id": "4807",
+          "team_slug": "southampton",
+          "team_name": "Southampton",
+          "team_logo": "https://tipsscore.com/resb/team/southampton.png",
+          "team_name_translations": {
+              "en": "Southampton",
+              "ru": "Саутгемптон",
+              "de": "Southampton FC",
+              "es": "Southampton FC",
+              "fr": "Southampton FC",
+              "zh": "南安普敦",
+              "tr": "Southampton",
+              "el": "Σαουθάμπτον",
+              "it": "Southampton",
+              "nl": "Southampton FC",
+              "pt": "Southampton FC"
+          },
+          "team_name_short": "Southampton",
+          "team_name_full": "Southampton",
+          "team_name_code": "SOU",
+          "team_has_sub": "0",
+          "team_gender": "M",
+          "team_is_nationality": "0",
+          "team_country_code": "ENG",
+          "team_country": "England",
+          "team_flag": "england",
+          "team_foundation": "",
+          "updated": "2022-12-12 14:07:31"
+      },
+      {
+          "id": "4",
+          "sport_id": "1",
+          "slug": "shane-long",
+          "name": "Shane Long",
+          "name_translations": {
+              "en": "Shane Long"
+          },
+          "name_short": "S. Long",
+          "photo": "https://tipsscore.com/resb/player/shane-long.png",
+          "position": "F",
+          "position_name": "Forward",
+          "weight": "70",
+          "age": "35",
+          "date_birth_at": "1987-01-22",
+          "height": "1.80",
+          "shirt_number": "7",
+          "preferred_foot": "Both",
+          "nationality_code": "IRL",
+          "flag": "ireland",
+          "market_currency": "EUR",
+          "market_value": "3300000",
+          "contract_until": "",
+          "rating": "42.30",
+          "characteristics": {
+              "negative": [
+                  {
+                      "feature": "Ground duels",
+                      "value": 735
+                  }
+              ]
+          },
+          "ability": [
+              {
+                  "name": "Attacking",
+                  "value": 59,
+                  "full_average": 65
+              },
+              {
+                  "name": "Technical",
+                  "value": 37,
+                  "full_average": 52
+              },
+              {
+                  "name": "Defending",
+                  "value": 24,
+                  "full_average": 31
+              },
+              {
+                  "name": "Tactical",
+                  "value": 35,
+                  "full_average": 45
+              },
+              {
+                  "name": "Creativity",
+                  "value": 39,
+                  "full_average": 50
+              }
+          ],
+          "team_id": "4886",
+          "team_category_id": "40",
+          "team_venue_id": "1855",
+          "team_manager_id": "8452",
+          "team_slug": "reading",
+          "team_name": "Reading",
+          "team_logo": "https://tipsscore.com/resb/team/reading.png",
+          "team_name_translations": {
+              "en": "Reading",
+              "ru": "Рединг",
+              "de": "FC Reading",
+              "es": "FC Reading",
+              "fr": "Reading FC",
+              "zh": "雷丁",
+              "tr": "Reading",
+              "el": "Ρέντινγκ",
+              "nl": "Reading FC",
+              "pt": "Reading FC"
+          },
+          "team_name_short": "Reading",
+          "team_name_full": "Reading",
+          "team_name_code": "REA",
+          "team_has_sub": "0",
+          "team_gender": "M",
+          "team_is_nationality": "0",
+          "team_country_code": "ENG",
+          "team_country": "England",
+          "team_flag": "england",
+          "team_foundation": "",
+          "updated": "2022-12-12 14:07:31"
+      },
+      {
+          "id": "5",
+          "sport_id": "1",
+          "slug": "michael-obafemi",
+          "name": "Michael Obafemi",
+          "name_translations": {
+              "en": "Michael Obafemi"
+          },
+          "name_short": "M. Obafemi",
+          "photo": "https://tipsscore.com/resb/player/michael-obafemi.png",
+          "position": "F",
+          "position_name": "Forward",
+          "weight": "0",
+          "age": "22",
+          "date_birth_at": "2000-07-06",
+          "height": "1.72",
+          "shirt_number": "9",
+          "preferred_foot": "Right",
+          "nationality_code": "IRL",
+          "flag": "ireland",
+          "market_currency": "EUR",
+          "market_value": "2300000",
+          "contract_until": "",
+          "rating": "51.90",
+          "characteristics": null,
+          "ability": [
+              {
+                  "name": "Attacking",
+                  "value": 66,
+                  "full_average": 65
+              },
+              {
+                  "name": "Technical",
+                  "value": 53,
+                  "full_average": 52
+              },
+              {
+                  "name": "Defending",
+                  "value": 26,
+                  "full_average": 31
+              },
+              {
+                  "name": "Tactical",
+                  "value": 47,
+                  "full_average": 45
+              },
+              {
+                  "name": "Creativity",
+                  "value": 50,
+                  "full_average": 50
+              }
+          ],
+          "team_id": "4877",
+          "team_category_id": "40",
+          "team_venue_id": "1846",
+          "team_manager_id": "1837",
+          "team_slug": "swansea-city",
+          "team_name": "Swansea City",
+          "team_logo": "https://tipsscore.com/resb/team/swansea-city.png",
+          "team_name_translations": {
+              "en": "Swansea City",
+              "ru": "Суонси Сити",
+              "de": "Swansea City",
+              "es": "Swansea City",
+              "fr": "Swansea City",
+              "zh": "斯旺西",
+              "tr": "Swansea City",
+              "el": "Σουόνσι",
+              "it": "Swansea City",
+              "nl": "Swansea City",
+              "pt": "Swansea City"
+          },
+          "team_name_short": "Swansea",
+          "team_name_full": "Swansea City",
+          "team_name_code": "SWA",
+          "team_has_sub": "0",
+          "team_gender": "M",
+          "team_is_nationality": "0",
+          "team_country_code": "ENG",
+          "team_country": "England",
+          "team_flag": "england",
+          "team_foundation": "",
+          "updated": "2022-12-12 14:07:31"
+      },
+      {
+          "id": "6",
+          "sport_id": "1",
+          "slug": "james-ward-prowse",
+          "name": "James Ward-Prowse",
+          "name_translations": {
+              "en": "James Ward-Prowse"
+          },
+          "name_short": "J. Ward-Prowse",
+          "photo": "https://tipsscore.com/resb/player/james-ward-prowse.png",
+          "position": "M",
+          "position_name": "Midfielder",
+          "weight": "66",
+          "age": "28",
+          "date_birth_at": "1994-11-01",
+          "height": "1.77",
+          "shirt_number": "8",
+          "preferred_foot": "Right",
+          "nationality_code": "ENG",
+          "flag": "england",
+          "market_currency": "EUR",
+          "market_value": "16300000",
+          "contract_until": "",
+          "rating": "68.70",
+          "characteristics": {
+              "positive": [
+                  {
+                      "feature": "Penalty taking",
+                      "value": 110
+                  },
+                  {
+                      "feature": "Passing",
+                      "value": 124
+                  },
+                  {
+                      "feature": "Direct free kicks",
+                      "value": 130
+                  }
+              ]
+          },
+          "ability": [
+              {
+                  "name": "Attacking",
+                  "value": 71,
+                  "full_average": 54
+              },
+              {
+                  "name": "Technical",
+                  "value": 70,
+                  "full_average": 54
+              },
+              {
+                  "name": "Defending",
+                  "value": 43,
+                  "full_average": 45
+              },
+              {
+                  "name": "Tactical",
+                  "value": 61,
+                  "full_average": 45
+              },
+              {
+                  "name": "Creativity",
+                  "value": 81,
+                  "full_average": 55
+              }
+          ],
+          "team_id": "1",
+          "team_category_id": "40",
+          "team_venue_id": "1",
+          "team_manager_id": "4807",
+          "team_slug": "southampton",
+          "team_name": "Southampton",
+          "team_logo": "https://tipsscore.com/resb/team/southampton.png",
+          "team_name_translations": {
+              "en": "Southampton",
+              "ru": "Саутгемптон",
+              "de": "Southampton FC",
+              "es": "Southampton FC",
+              "fr": "Southampton FC",
+              "zh": "南安普敦",
+              "tr": "Southampton",
+              "el": "Σαουθάμπτον",
+              "it": "Southampton",
+              "nl": "Southampton FC",
+              "pt": "Southampton FC"
+          },
+          "team_name_short": "Southampton",
+          "team_name_full": "Southampton",
+          "team_name_code": "SOU",
+          "team_has_sub": "0",
+          "team_gender": "M",
+          "team_is_nationality": "0",
+          "team_country_code": "ENG",
+          "team_country": "England",
+          "team_flag": "england",
+          "team_foundation": "",
+          "updated": "2022-12-12 14:07:31"
+      },
+      {
+          "id": "7",
+          "sport_id": "1",
+          "slug": "pierre-emile-hojbjerg",
+          "name": "Pierre-Emile Højbjerg",
+          "name_translations": {
+              "en": "Pierre-Emile Højbjerg"
+          },
+          "name_short": "P. Højbjerg",
+          "photo": "https://tipsscore.com/resb/player/pierre-emile-hojbjerg.png",
+          "position": "M",
+          "position_name": "Midfielder",
+          "weight": "84",
+          "age": "27",
+          "date_birth_at": "1995-08-05",
+          "height": "1.85",
+          "shirt_number": "5",
+          "preferred_foot": "Right",
+          "nationality_code": "DEN",
+          "flag": "denmark",
+          "market_currency": "EUR",
+          "market_value": "13600000",
+          "contract_until": "",
+          "rating": "69.30",
+          "characteristics": {
+              "positive": [
+                  {
+                      "feature": "Positioning",
+                      "value": 327
+                  },
+                  {
+                      "feature": "Ball control",
+                      "value": 376
+                  },
+                  {
+                      "feature": "Playmaking",
+                      "value": 586
+                  }
+              ]
+          },
+          "ability": [
+              {
+                  "name": "Attacking",
+                  "value": 60,
+                  "full_average": 54
+              },
+              {
+                  "name": "Technical",
+                  "value": 67,
+                  "full_average": 54
+              },
+              {
+                  "name": "Defending",
+                  "value": 61,
+                  "full_average": 45
+              },
+              {
+                  "name": "Tactical",
+                  "value": 74,
+                  "full_average": 45
+              },
+              {
+                  "name": "Creativity",
+                  "value": 67,
+                  "full_average": 55
+              }
+          ],
+          "team_id": "6",
+          "team_category_id": "40",
+          "team_venue_id": "6",
+          "team_manager_id": "2970",
+          "team_slug": "tottenham",
+          "team_name": "Tottenham Hotspur",
+          "team_logo": "https://tipsscore.com/resb/team/tottenham.png",
+          "team_name_translations": {
+              "en": "Tottenham Hotspur",
+              "ru": "Тоттенхэм Хотспур",
+              "de": "Tottenham Hotspur",
+              "es": "Tottenham Hotspur FC",
+              "fr": "Tottenham Hotspur FC",
+              "zh": "托特纳姆",
+              "tr": "Tottenham",
+              "el": "Τότεναμ",
+              "it": "Tottenham",
+              "nl": "Tottenham Hotspur FC",
+              "pt": "Tottenham Hotspur FC"
+          },
+          "team_name_short": "Tottenham ",
+          "team_name_full": "Tottenham Hotspur",
+          "team_name_code": "TOT",
+          "team_has_sub": "0",
+          "team_gender": "M",
+          "team_is_nationality": "0",
+          "team_country_code": "ENG",
+          "team_country": "England",
+          "team_flag": "england",
+          "team_foundation": "",
+          "updated": "2022-12-12 14:07:31"
+      },
+      {
+          "id": "8",
+          "sport_id": "1",
+          "slug": "moussa-djenepo",
+          "name": "Moussa Djenepo",
+          "name_translations": {
+              "en": "Moussa Djenepo"
+          },
+          "name_short": "M. Djenepo",
+          "photo": "https://tipsscore.com/resb/player/moussa-djenepo.png",
+          "position": "M",
+          "position_name": "Midfielder",
+          "weight": "0",
+          "age": "24",
+          "date_birth_at": "1998-06-15",
+          "height": "1.77",
+          "shirt_number": "19",
+          "preferred_foot": "Right",
+          "nationality_code": "MLI",
+          "flag": "mali",
+          "market_currency": "EUR",
+          "market_value": "11600000",
+          "contract_until": "",
+          "rating": "51.10",
+          "characteristics": {
+              "negative": [
+                  {
+                      "feature": "Aerial duels",
+                      "value": 280
+                  }
+              ]
+          },
+          "ability": [
+              {
+                  "name": "Attacking",
+                  "value": 51,
+                  "full_average": 54
+              },
+              {
+                  "name": "Technical",
+                  "value": 50,
+                  "full_average": 54
+              },
+              {
+                  "name": "Defending",
+                  "value": 47,
+                  "full_average": 45
+              },
+              {
+                  "name": "Tactical",
+                  "value": 39,
+                  "full_average": 45
+              },
+              {
+                  "name": "Creativity",
+                  "value": 51,
+                  "full_average": 55
+              }
+          ],
+          "team_id": "563",
+          "team_category_id": "40",
+          "team_venue_id": "-1",
+          "team_manager_id": "10141",
+          "team_slug": "southampton-u23",
+          "team_name": "Southampton U21",
+          "team_logo": "https://tipsscore.com/resb/team/southampton-u23.png",
+          "team_name_translations": {
+              "en": "Southampton U21",
+              "ru": "Саутгемптон",
+              "de": "Southampton FC",
+              "es": "Southampton FC",
+              "fr": "Southampton U21",
+              "zh": "南安普顿预备队",
+              "tr": "Southampton FC",
+              "el": "Σαουθάμπτον",
+              "it": "Southampton",
+              "nl": "Southampton FC",
+              "pt": "Southampton FC"
+          },
+          "team_name_short": "Southampton",
+          "team_name_full": "Southampton U21",
+          "team_name_code": "SOU",
+          "team_has_sub": "0",
+          "team_gender": "M",
+          "team_is_nationality": "0",
+          "team_country_code": "ENG",
+          "team_country": "England",
+          "team_flag": "england",
+          "team_foundation": "",
+          "updated": "2022-12-12 14:07:31"
+      },
+      {
+          "id": "9",
+          "sport_id": "1",
+          "slug": "oriol-romeu",
+          "name": "Oriol Romeu",
+          "name_translations": {
+              "en": "Oriol Romeu"
+          },
+          "name_short": "O. Romeu",
+          "photo": "https://tipsscore.com/resb/player/oriol-romeu.png",
+          "position": "M",
+          "position_name": "Midfielder",
+          "weight": "83",
+          "age": "31",
+          "date_birth_at": "1991-09-24",
+          "height": "1.82",
+          "shirt_number": "18",
+          "preferred_foot": "Right",
+          "nationality_code": "ESP",
+          "flag": "spain",
+          "market_currency": "EUR",
+          "market_value": "9300000",
+          "contract_until": "",
+          "rating": "63.50",
+          "characteristics": {
+              "positive": [
+                  {
+                      "feature": "Positioning",
+                      "value": 384
+                  },
+                  {
+                      "feature": "High pressing",
+                      "value": 584
+                  },
+                  {
+                      "feature": "Ball control",
+                      "value": 930
+                  }
+              ]
+          },
+          "ability": [
+              {
+                  "name": "Attacking",
+                  "value": 57,
+                  "full_average": 54
+              },
+              {
+                  "name": "Technical",
+                  "value": 64,
+                  "full_average": 54
+              },
+              {
+                  "name": "Defending",
+                  "value": 53,
+                  "full_average": 45
+              },
+              {
+                  "name": "Tactical",
+                  "value": 62,
+                  "full_average": 45
+              },
+              {
+                  "name": "Creativity",
+                  "value": 64,
+                  "full_average": 55
+              }
+          ],
+          "team_id": "3818",
+          "team_category_id": "32",
+          "team_venue_id": "1354",
+          "team_manager_id": "1294",
+          "team_slug": "girona",
+          "team_name": "Girona FC",
+          "team_logo": "https://tipsscore.com/resb/team/girona.png",
+          "team_name_translations": {
+              "en": "Girona FC",
+              "ru": "Жирона",
+              "de": "FC Girona",
+              "es": "Girona FC",
+              "fr": "FC Gérone",
+              "zh": "杰罗纳",
+              "tr": "Girona",
+              "el": "Χιρόνα",
+              "it": "Girona",
+              "nl": "Girona FC",
+              "pt": "Girona FC"
+          },
+          "team_name_short": "Girona",
+          "team_name_full": "Girona FC",
+          "team_name_code": "GIR",
+          "team_has_sub": "0",
+          "team_gender": "M",
+          "team_is_nationality": "0",
+          "team_country_code": "ESP",
+          "team_country": "Spain",
+          "team_flag": "spain",
+          "team_foundation": "",
+          "updated": "2022-12-12 14:07:31"
+      },
+      {
+          "id": "10",
+          "sport_id": "1",
+          "slug": "sofiane-boufal",
+          "name": "Sofiane Boufal",
+          "name_translations": {
+              "en": "Sofiane Boufal"
+          },
+          "name_short": "S. Boufal",
+          "photo": "https://tipsscore.com/resb/player/sofiane-boufal.png",
+          "position": "F",
+          "position_name": "Forward",
+          "weight": "60",
+          "age": "29",
+          "date_birth_at": "1993-09-17",
+          "height": "1.75",
+          "shirt_number": "7",
+          "preferred_foot": "Right",
+          "nationality_code": "MAR",
+          "flag": "morocco",
+          "market_currency": "EUR",
+          "market_value": "9000000",
+          "contract_until": "",
+          "rating": "60.90",
+          "characteristics": {
+              "positive": [
+                  {
+                      "feature": "Penalty taking",
+                      "value": 52
+                  },
+                  {
+                      "feature": "Playmaking",
+                      "value": 473
+                  }
+              ]
+          },
+          "ability": [
+              {
+                  "name": "Attacking",
+                  "value": 78,
+                  "full_average": 65
+              },
+              {
+                  "name": "Technical",
+                  "value": 72,
+                  "full_average": 52
+              },
+              {
+                  "name": "Defending",
+                  "value": 18,
+                  "full_average": 31
+              },
+              {
+                  "name": "Tactical",
+                  "value": 44,
+                  "full_average": 45
+              },
+              {
+                  "name": "Creativity",
+                  "value": 75,
+                  "full_average": 50
+              }
+          ],
+          "team_id": "6898",
+          "team_category_id": "86",
+          "team_venue_id": "2577",
+          "team_manager_id": "10350",
+          "team_slug": "angers",
+          "team_name": "Angers",
+          "team_logo": "https://tipsscore.com/resb/team/angers.png",
+          "team_name_translations": {
+              "en": "Angers",
+              "ru": "Анже",
+              "de": "SCO Angers",
+              "es": "Angers SCO",
+              "fr": "Angers SCO",
+              "zh": "昂热",
+              "tr": "Angers",
+              "el": "Ανζέ",
+              "it": "Angers",
+              "nl": "Angers SCO",
+              "pt": "Angers SCO"
+          },
+          "team_name_short": "Angers",
+          "team_name_full": "Angers",
+          "team_name_code": "ANG",
+          "team_has_sub": "0",
+          "team_gender": "M",
+          "team_is_nationality": "0",
+          "team_country_code": "FRA",
+          "team_country": "France",
+          "team_flag": "france",
+          "team_foundation": "",
+          "updated": "2022-12-12 14:07:31"
+      },
+      {
+          "id": "11",
+          "sport_id": "1",
+          "slug": "stuart-armstrong",
+          "name": "Stuart Armstrong",
+          "name_translations": {
+              "en": "Stuart Armstrong"
+          },
+          "name_short": "S. Armstrong",
+          "photo": "https://tipsscore.com/resb/player/stuart-armstrong.png",
+          "position": "M",
+          "position_name": "Midfielder",
+          "weight": "75",
+          "age": "30",
+          "date_birth_at": "1992-03-30",
+          "height": "1.83",
+          "shirt_number": "17",
+          "preferred_foot": "Right",
+          "nationality_code": "SCO",
+          "flag": "scotland",
+          "market_currency": "EUR",
+          "market_value": "7400000",
+          "contract_until": "",
+          "rating": "53.10",
+          "characteristics": {
+              "negative": [
+                  {
+                      "feature": "Aerial duels",
+                      "value": 490
+                  }
+              ]
+          },
+          "ability": [
+              {
+                  "name": "Attacking",
+                  "value": 64,
+                  "full_average": 54
+              },
+              {
+                  "name": "Technical",
+                  "value": 64,
+                  "full_average": 54
+              },
+              {
+                  "name": "Defending",
+                  "value": 23,
+                  "full_average": 45
+              },
+              {
+                  "name": "Tactical",
+                  "value": 31,
+                  "full_average": 45
+              },
+              {
+                  "name": "Creativity",
+                  "value": 66,
+                  "full_average": 55
+              }
+          ],
+          "team_id": "1",
+          "team_category_id": "40",
+          "team_venue_id": "1",
+          "team_manager_id": "4807",
+          "team_slug": "southampton",
+          "team_name": "Southampton",
+          "team_logo": "https://tipsscore.com/resb/team/southampton.png",
+          "team_name_translations": {
+              "en": "Southampton",
+              "ru": "Саутгемптон",
+              "de": "Southampton FC",
+              "es": "Southampton FC",
+              "fr": "Southampton FC",
+              "zh": "南安普敦",
+              "tr": "Southampton",
+              "el": "Σαουθάμπτον",
+              "it": "Southampton",
+              "nl": "Southampton FC",
+              "pt": "Southampton FC"
+          },
+          "team_name_short": "Southampton",
+          "team_name_full": "Southampton",
+          "team_name_code": "SOU",
+          "team_has_sub": "0",
+          "team_gender": "M",
+          "team_is_nationality": "0",
+          "team_country_code": "ENG",
+          "team_country": "England",
+          "team_flag": "england",
+          "team_foundation": "",
+          "updated": "2022-12-12 14:07:31"
+      },
+      {
+          "id": "12",
+          "sport_id": "1",
+          "slug": "yan-valery",
+          "name": "Yan Valery",
+          "name_translations": {
+              "en": "Yan Valery"
+          },
+          "name_short": "Y. Valery",
+          "photo": "https://tipsscore.com/resb/player/yan-valery.png",
+          "position": "D",
+          "position_name": "Defender",
+          "weight": "0",
+          "age": "23",
+          "date_birth_at": "1999-02-22",
+          "height": "1.80",
+          "shirt_number": "94",
+          "preferred_foot": "Right",
+          "nationality_code": "TUN",
+          "flag": "tunisia",
+          "market_currency": "EUR",
+          "market_value": "6800000",
+          "contract_until": "",
+          "rating": "47.50",
+          "characteristics": {
+              "negative": [
+                  {
+                      "feature": "Error proneness",
+                      "value": 456
+                  },
+                  {
+                      "feature": "Long balls",
+                      "value": 730
+                  }
+              ]
+          },
+          "ability": [
+              {
+                  "name": "Attacking",
+                  "value": 39,
+                  "full_average": 39
+              },
+              {
+                  "name": "Technical",
+                  "value": 40,
+                  "full_average": 46
+              },
+              {
+                  "name": "Defending",
+                  "value": 59,
+                  "full_average": 66
+              },
+              {
+                  "name": "Tactical",
+                  "value": 43,
+                  "full_average": 53
+              },
+              {
+                  "name": "Creativity",
+                  "value": 39,
+                  "full_average": 44
+              }
+          ],
+          "team_id": "6898",
+          "team_category_id": "86",
+          "team_venue_id": "2577",
+          "team_manager_id": "10350",
+          "team_slug": "angers",
+          "team_name": "Angers",
+          "team_logo": "https://tipsscore.com/resb/team/angers.png",
+          "team_name_translations": {
+              "en": "Angers",
+              "ru": "Анже",
+              "de": "SCO Angers",
+              "es": "Angers SCO",
+              "fr": "Angers SCO",
+              "zh": "昂热",
+              "tr": "Angers",
+              "el": "Ανζέ",
+              "it": "Angers",
+              "nl": "Angers SCO",
+              "pt": "Angers SCO"
+          },
+          "team_name_short": "Angers",
+          "team_name_full": "Angers",
+          "team_name_code": "ANG",
+          "team_has_sub": "0",
+          "team_gender": "M",
+          "team_is_nationality": "0",
+          "team_country_code": "FRA",
+          "team_country": "France",
+          "team_flag": "france",
+          "team_foundation": "",
+          "updated": "2022-12-12 14:07:31"
+      },
+      {
+          "id": "13",
+          "sport_id": "1",
+          "slug": "sam-mcqueen",
+          "name": "Sam McQueen",
+          "name_translations": {
+              "en": "Sam McQueen"
+          },
+          "name_short": "S. McQueen",
+          "photo": "https://tipsscore.com/resb/player/sam-mcqueen.png",
+          "position": "M",
+          "position_name": "Midfielder",
+          "weight": "70",
+          "age": "27",
+          "date_birth_at": "1995-02-06",
+          "height": "1.76",
+          "shirt_number": "14",
+          "preferred_foot": "Left",
+          "nationality_code": "ENG",
+          "flag": "england",
+          "market_currency": "EUR",
+          "market_value": "1100000",
+          "contract_until": "",
+          "rating": "0.00",
+          "characteristics": null,
+          "ability": null,
+          "team_id": "-1",
+          "team_category_id": "-1",
+          "team_venue_id": "-1",
+          "team_manager_id": "-1",
+          "team_slug": "",
+          "team_name": "",
+          "team_logo": "",
+          "team_name_translations": null,
+          "team_name_short": "",
+          "team_name_full": "",
+          "team_name_code": "",
+          "team_has_sub": "0",
+          "team_gender": "",
+          "team_is_nationality": "0",
+          "team_country_code": "",
+          "team_country": "",
+          "team_flag": "",
+          "team_foundation": "",
+          "updated": "2022-12-12 14:07:31"
+      },
+      {
+          "id": "14",
+          "sport_id": "1",
+          "slug": "will-smallbone",
+          "name": "Will Smallbone",
+          "name_translations": {
+              "en": "Will Smallbone"
+          },
+          "name_short": "W. Smallbone",
+          "photo": "https://tipsscore.com/resb/player/will-smallbone.png",
+          "position": "M",
+          "position_name": "Midfielder",
+          "weight": "0",
+          "age": "22",
+          "date_birth_at": "2000-02-21",
+          "height": "1.73",
+          "shirt_number": "18",
+          "preferred_foot": "Right",
+          "nationality_code": "IRL",
+          "flag": "ireland",
+          "market_currency": "EUR",
+          "market_value": "0",
+          "contract_until": "",
+          "rating": "52.30",
+          "characteristics": null,
+          "ability": [
+              {
+                  "name": "Attacking",
+                  "value": 51,
+                  "full_average": 54
+              },
+              {
+                  "name": "Technical",
+                  "value": 44,
+                  "full_average": 54
+              },
+              {
+                  "name": "Defending",
+                  "value": 48,
+                  "full_average": 45
+              },
+              {
+                  "name": "Tactical",
+                  "value": 49,
+                  "full_average": 45
+              },
+              {
+                  "name": "Creativity",
+                  "value": 52,
+                  "full_average": 55
+              }
+          ],
+          "team_id": "4889",
+          "team_category_id": "40",
+          "team_venue_id": "1858",
+          "team_manager_id": "1900",
+          "team_slug": "stoke-city",
+          "team_name": "Stoke City",
+          "team_logo": "https://tipsscore.com/resb/team/stoke-city.png",
+          "team_name_translations": {
+              "en": "Stoke City",
+              "ru": "Сток Сити",
+              "de": "Stoke City",
+              "es": "Stoke City",
+              "fr": "Stoke City",
+              "zh": "斯托克",
+              "tr": "Stoke City",
+              "el": "Στόουκ",
+              "it": "Stoke City",
+              "nl": "Stoke City",
+              "pt": "Stoke City FC"
+          },
+          "team_name_short": "Stoke",
+          "team_name_full": "Stoke City",
+          "team_name_code": "STK",
+          "team_has_sub": "0",
+          "team_gender": "M",
+          "team_is_nationality": "0",
+          "team_country_code": "ENG",
+          "team_country": "England",
+          "team_flag": "england",
+          "team_foundation": "",
+          "updated": "2022-12-12 14:07:31"
+      },
+      {
+          "id": "15",
+          "sport_id": "1",
+          "slug": "caleb-watts",
+          "name": "Caleb Watts",
+          "name_translations": {
+              "en": "Caleb Watts"
+          },
+          "name_short": "C. Watts",
+          "photo": "https://tipsscore.com/resb/player/caleb-watts.png",
+          "position": "M",
+          "position_name": "Midfielder",
+          "weight": "0",
+          "age": "20",
+          "date_birth_at": "2002-01-16",
+          "height": "1.75",
+          "shirt_number": "17",
+          "preferred_foot": "Right",
+          "nationality_code": "AUS",
+          "flag": "australia",
+          "market_currency": "EUR",
+          "market_value": "0",
+          "contract_until": "",
+          "rating": "0.00",
+          "characteristics": null,
+          "ability": null,
+          "team_id": "4850",
+          "team_category_id": "40",
+          "team_venue_id": "1820",
+          "team_manager_id": "1854",
+          "team_slug": "morecambe",
+          "team_name": "Morecambe",
+          "team_logo": "https://tipsscore.com/resb/team/morecambe.png",
+          "team_name_translations": {
+              "en": "Morecambe",
+              "ru": "ФК Моркамб",
+              "de": "Morecambe FC",
+              "es": "Morecambe FC",
+              "fr": "Morecambe FC",
+              "zh": "莫尔坎比",
+              "tr": "Morecambe",
+              "el": "Μόρκαμπ",
+              "it": "Morecambe",
+              "nl": "Morecambe FC",
+              "pt": "Morecambe FC"
+          },
+          "team_name_short": "Morecambe",
+          "team_name_full": "Morecambe",
+          "team_name_code": "MFC",
+          "team_has_sub": "0",
+          "team_gender": "M",
+          "team_is_nationality": "0",
+          "team_country_code": "ENG",
+          "team_country": "England",
+          "team_flag": "england",
+          "team_foundation": "",
+          "updated": "2022-12-12 14:07:31"
+      },
+      {
+          "id": "16",
+          "sport_id": "1",
+          "slug": "jannik-vestergaard",
+          "name": "Jannik Vestergaard",
+          "name_translations": {
+              "en": "Jannik Vestergaard"
+          },
+          "name_short": "J. Vestergaard",
+          "photo": "https://tipsscore.com/resb/player/jannik-vestergaard.png",
+          "position": "D",
+          "position_name": "Defender",
+          "weight": "98",
+          "age": "30",
+          "date_birth_at": "1992-08-03",
+          "height": "1.99",
+          "shirt_number": "23",
+          "preferred_foot": "Both",
+          "nationality_code": "DEN",
+          "flag": "denmark",
+          "market_currency": "EUR",
+          "market_value": "17400000",
+          "contract_until": "",
+          "rating": "57.70",
+          "characteristics": {
+              "positive": [
+                  {
+                      "feature": "Aerial duels",
+                      "value": 273
+                  }
+              ]
+          },
+          "ability": [
+              {
+                  "name": "Attacking",
+                  "value": 39,
+                  "full_average": 39
+              },
+              {
+                  "name": "Technical",
+                  "value": 50,
+                  "full_average": 46
+              },
+              {
+                  "name": "Defending",
+                  "value": 71,
+                  "full_average": 66
+              },
+              {
+                  "name": "Tactical",
+                  "value": 68,
+                  "full_average": 53
+              },
+              {
+                  "name": "Creativity",
+                  "value": 43,
+                  "full_average": 44
+              }
+          ],
+          "team_id": "4818",
+          "team_category_id": "40",
+          "team_venue_id": "1790",
+          "team_manager_id": "1822",
+          "team_slug": "leicester-city",
+          "team_name": "Leicester City",
+          "team_logo": "https://tipsscore.com/resb/team/leicester-city.png",
+          "team_name_translations": {
+              "en": "Leicester City",
+              "ru": "Лестер Сити",
+              "de": "Leicester City FC",
+              "es": "Leicester City FC",
+              "fr": "Leicester City FC",
+              "zh": "莱切斯特",
+              "tr": "Leicester City FC",
+              "el": "Λέστερ",
+              "it": "Leicester City FC",
+              "nl": "Leicester City FC",
+              "pt": "Leicester City FC"
+          },
+          "team_name_short": "Leicester",
+          "team_name_full": "Leicester City",
+          "team_name_code": "LEI",
+          "team_has_sub": "0",
+          "team_gender": "M",
+          "team_is_nationality": "0",
+          "team_country_code": "ENG",
+          "team_country": "England",
+          "team_flag": "england",
+          "team_foundation": "",
+          "updated": "2022-12-12 14:07:31"
+      },
+      {
+          "id": "17",
+          "sport_id": "1",
+          "slug": "jan-bednarek",
+          "name": "Jan Bednarek",
+          "name_translations": {
+              "en": "Jan Bednarek"
+          },
+          "name_short": "J. Bednarek",
+          "photo": "https://tipsscore.com/resb/player/jan-bednarek.png",
+          "position": "D",
+          "position_name": "Defender",
+          "weight": "77",
+          "age": "26",
+          "date_birth_at": "1996-04-12",
+          "height": "1.89",
+          "shirt_number": "20",
+          "preferred_foot": "Right",
+          "nationality_code": "POL",
+          "flag": "poland",
+          "market_currency": "EUR",
+          "market_value": "14500000",
+          "contract_until": "",
+          "rating": "59.30",
+          "characteristics": {
+              "positive": [
+                  {
+                      "feature": "Ball interception",
+                      "value": 35
+                  },
+                  {
+                      "feature": "Positioning",
+                      "value": 105
+                  },
+                  {
+                      "feature": "Aerial duels",
+                      "value": 424
+                  }
+              ]
+          },
+          "ability": [
+              {
+                  "name": "Attacking",
+                  "value": 38,
+                  "full_average": 39
+              },
+              {
+                  "name": "Technical",
+                  "value": 45,
+                  "full_average": 46
+              },
+              {
+                  "name": "Defending",
+                  "value": 81,
+                  "full_average": 66
+              },
+              {
+                  "name": "Tactical",
+                  "value": 75,
+                  "full_average": 53
+              },
+              {
+                  "name": "Creativity",
+                  "value": 40,
+                  "full_average": 44
+              }
+          ],
+          "team_id": "5",
+          "team_category_id": "40",
+          "team_venue_id": "5",
+          "team_manager_id": "5069",
+          "team_slug": "aston-villa",
+          "team_name": "Aston Villa",
+          "team_logo": "https://tipsscore.com/resb/team/aston-villa.png",
+          "team_name_translations": {
+              "en": "Aston Villa",
+              "ru": "Астон Вилла",
+              "de": "Aston Villa Birmingham FC",
+              "es": "Aston Villa",
+              "fr": "Aston Villa",
+              "zh": "阿斯顿维拉",
+              "tr": "Aston Villa",
+              "el": "Άστον Βίλα",
+              "it": "Aston Villa",
+              "nl": "Aston Villa",
+              "pt": "Aston Villa FC"
+          },
+          "team_name_short": "Aston Villa",
+          "team_name_full": "Aston Villa",
+          "team_name_code": "AVL",
+          "team_has_sub": "0",
+          "team_gender": "M",
+          "team_is_nationality": "0",
+          "team_country_code": "ENG",
+          "team_country": "England",
+          "team_flag": "england",
+          "team_foundation": "",
+          "updated": "2022-12-12 14:07:31"
+      },
+      {
+          "id": "18",
+          "sport_id": "1",
+          "slug": "ryan-bertrand",
+          "name": "Ryan Bertrand",
+          "name_translations": {
+              "en": "Ryan Bertrand"
+          },
+          "name_short": "R. Bertrand",
+          "photo": "https://tipsscore.com/resb/player/ryan-bertrand.png",
+          "position": "D",
+          "position_name": "Defender",
+          "weight": "85",
+          "age": "33",
+          "date_birth_at": "1989-08-05",
+          "height": "1.79",
+          "shirt_number": "5",
+          "preferred_foot": "Left",
+          "nationality_code": "ENG",
+          "flag": "england",
+          "market_currency": "EUR",
+          "market_value": "14200000",
+          "contract_until": "",
+          "rating": "45.90",
+          "characteristics": {
+              "negative": [
+                  {
+                      "feature": "Long balls",
+                      "value": 655
+                  }
+              ]
+          },
+          "ability": [
+              {
+                  "name": "Attacking",
+                  "value": 39,
+                  "full_average": 39
+              },
+              {
+                  "name": "Technical",
+                  "value": 36,
+                  "full_average": 47
+              },
+              {
+                  "name": "Defending",
+                  "value": 55,
+                  "full_average": 66
+              },
+              {
+                  "name": "Tactical",
+                  "value": 37,
+                  "full_average": 54
+              },
+              {
+                  "name": "Creativity",
+                  "value": 45,
+                  "full_average": 44
+              }
+          ],
+          "team_id": "4818",
+          "team_category_id": "40",
+          "team_venue_id": "1790",
+          "team_manager_id": "1822",
+          "team_slug": "leicester-city",
+          "team_name": "Leicester City",
+          "team_logo": "https://tipsscore.com/resb/team/leicester-city.png",
+          "team_name_translations": {
+              "en": "Leicester City",
+              "ru": "Лестер Сити",
+              "de": "Leicester City FC",
+              "es": "Leicester City FC",
+              "fr": "Leicester City FC",
+              "zh": "莱切斯特",
+              "tr": "Leicester City FC",
+              "el": "Λέστερ",
+              "it": "Leicester City FC",
+              "nl": "Leicester City FC",
+              "pt": "Leicester City FC"
+          },
+          "team_name_short": "Leicester",
+          "team_name_full": "Leicester City",
+          "team_name_code": "LEI",
+          "team_has_sub": "0",
+          "team_gender": "M",
+          "team_is_nationality": "0",
+          "team_country_code": "ENG",
+          "team_country": "England",
+          "team_flag": "england",
+          "team_foundation": "",
+          "updated": "2022-12-12 14:07:31"
+      },
+      {
+          "id": "19",
+          "sport_id": "1",
+          "slug": "kyle-walker-peters",
+          "name": "Kyle Walker-Peters",
+          "name_translations": {
+              "en": "Kyle Walker-Peters"
+          },
+          "name_short": "K. Walker-Peters",
+          "photo": "https://tipsscore.com/resb/player/kyle-walker-peters.png",
+          "position": "D",
+          "position_name": "Defender",
+          "weight": "64",
+          "age": "25",
+          "date_birth_at": "1997-04-13",
+          "height": "1.73",
+          "shirt_number": "2",
+          "preferred_foot": "Right",
+          "nationality_code": "ENG",
+          "flag": "england",
+          "market_currency": "EUR",
+          "market_value": "9300000",
+          "contract_until": "",
+          "rating": "57.50",
+          "characteristics": {
+              "positive": [
+                  {
+                      "feature": "Ball control",
+                      "value": 268
+                  },
+                  {
+                      "feature": "Tackling",
+                      "value": 339
+                  }
+              ]
+          },
+          "ability": [
+              {
+                  "name": "Attacking",
+                  "value": 48,
+                  "full_average": 39
+              },
+              {
+                  "name": "Technical",
+                  "value": 63,
+                  "full_average": 46
+              },
+              {
+                  "name": "Defending",
+                  "value": 58,
+                  "full_average": 66
+              },
+              {
+                  "name": "Tactical",
+                  "value": 47,
+                  "full_average": 53
+              },
+              {
+                  "name": "Creativity",
+                  "value": 54,
+                  "full_average": 44
+              }
+          ],
+          "team_id": "1",
+          "team_category_id": "40",
+          "team_venue_id": "1",
+          "team_manager_id": "4807",
+          "team_slug": "southampton",
+          "team_name": "Southampton",
+          "team_logo": "https://tipsscore.com/resb/team/southampton.png",
+          "team_name_translations": {
+              "en": "Southampton",
+              "ru": "Саутгемптон",
+              "de": "Southampton FC",
+              "es": "Southampton FC",
+              "fr": "Southampton FC",
+              "zh": "南安普敦",
+              "tr": "Southampton",
+              "el": "Σαουθάμπτον",
+              "it": "Southampton",
+              "nl": "Southampton FC",
+              "pt": "Southampton FC"
+          },
+          "team_name_short": "Southampton",
+          "team_name_full": "Southampton",
+          "team_name_code": "SOU",
+          "team_has_sub": "0",
+          "team_gender": "M",
+          "team_is_nationality": "0",
+          "team_country_code": "ENG",
+          "team_country": "England",
+          "team_flag": "england",
+          "team_foundation": "",
+          "updated": "2022-12-12 14:07:31"
+      },
+      {
+          "id": "20",
+          "sport_id": "1",
+          "slug": "kevin-danso",
+          "name": "Kevin Danso",
+          "name_translations": {
+              "en": "Kevin Danso"
+          },
+          "name_short": "K. Danso",
+          "photo": "https://tipsscore.com/resb/player/kevin-danso.png",
+          "position": "D",
+          "position_name": "Defender",
+          "weight": "89",
+          "age": "24",
+          "date_birth_at": "1998-09-19",
+          "height": "1.90",
+          "shirt_number": "4",
+          "preferred_foot": "Right",
+          "nationality_code": "AUT",
+          "flag": "austria",
+          "market_currency": "EUR",
+          "market_value": "6800000",
+          "contract_until": "",
+          "rating": "57.50",
+          "characteristics": {
+              "positive": [
+                  {
+                      "feature": "Aerial duels",
+                      "value": 361
+                  },
+                  {
+                      "feature": "Ground duels",
+                      "value": 578
+                  }
+              ],
+              "negative": [
+                  {
+                      "feature": "Discipline",
+                      "value": 1853
+                  }
+              ]
+          },
+          "ability": [
+              {
+                  "name": "Attacking",
+                  "value": 38,
+                  "full_average": 39
+              },
+              {
+                  "name": "Technical",
+                  "value": 47,
+                  "full_average": 46
+              },
+              {
+                  "name": "Defending",
+                  "value": 77,
+                  "full_average": 66
+              },
+              {
+                  "name": "Tactical",
+                  "value": 65,
+                  "full_average": 53
+              },
+              {
+                  "name": "Creativity",
+                  "value": 43,
+                  "full_average": 44
+              }
+          ],
+          "team_id": "6923",
+          "team_category_id": "86",
+          "team_venue_id": "2602",
+          "team_manager_id": "4406",
+          "team_slug": "rc-lens",
+          "team_name": "RC Lens",
+          "team_logo": "https://tipsscore.com/resb/team/rc-lens.png",
+          "team_name_translations": {
+              "en": "RC Lens",
+              "ru": "Ланс",
+              "de": "RC Lens",
+              "es": "RC Lens",
+              "fr": "RC Lens",
+              "zh": "朗斯",
+              "tr": "Racing Club de Lens",
+              "el": "Λανς",
+              "it": "Lens",
+              "nl": "RC Lens",
+              "pt": "RC Lens"
+          },
+          "team_name_short": "Lens",
+          "team_name_full": "RC Lens",
+          "team_name_code": "RCL",
+          "team_has_sub": "0",
+          "team_gender": "M",
+          "team_is_nationality": "0",
+          "team_country_code": "FRA",
+          "team_country": "France",
+          "team_flag": "france",
+          "team_foundation": "",
+          "updated": "2022-12-12 14:07:31"
+      }
+  ],
+  "total": 504703,
+  "per_page": 20
+}
