@@ -31,30 +31,33 @@ function s (proxyRes, req, res) {
     let chkLeagues = Array.isArray(leagues) && leagues.length;
     let chkTeams = Array.isArray(teams) && teams.length;
 
-    let matches = require('./resources/data/sport-score-matches.json');
+    let data = require('./resources/data/sport-score-matches.json');
 
-     
-    matches = matches.filter(match => {
-      let valid = true;
-      if (!match.matches.length)
-        return false;
+    for(day in data) {
+      let matches = data[day];
+      matches = matches.filter(match => {
+        let valid = true;
+        if (!match.matches.length)
+          return false;
 
-      if(chkLeagues)
-        valid &= leagues.includes(match.league_slug);
-      if(chkTeams) {
-        let innerMatches = [];
-        match.matches.forEach(innerMatch => {
-          if(teams.includes(innerMatch.home_team) || teams.includes(innerMatch.away_team))
-            innerMatches.push(innerMatch)
-        });
-        match.matches = innerMatches;
-        valid &= innerMatches.length > 0;
-      }
-      return valid;
-    });
+        if(chkLeagues)
+          valid &= leagues.includes(match.league_slug);
+        if(chkTeams) {
+          let innerMatches = [];
+          match.matches.forEach(innerMatch => {
+            if(teams.includes(innerMatch.home_team) || teams.includes(innerMatch.away_team))
+              innerMatches.push(innerMatch)
+          });
+          match.matches = innerMatches;
+          valid &= innerMatches.length > 0;
+        }
+        return valid;
+      });
+      
+     data[day] = matches;
+    }
     
-    
-    return matches;
+    return data;
   }
 
 
