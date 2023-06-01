@@ -1,4 +1,4 @@
-module.exports = function (proxyRes, req, res) {
+function s (proxyRes, req, res) {
     let sportScoreIndx = req.url.indexOf('/api/v1/sportscore');
     let sportScorematchIndx = req.url.indexOf('/data/match');
   
@@ -38,7 +38,7 @@ module.exports = function (proxyRes, req, res) {
       let valid = true;
       if (!match.matches.length)
         return false;
-        
+
       if(chkLeagues)
         valid &= leagues.includes(match.league_slug);
       if(chkTeams) {
@@ -77,7 +77,7 @@ module.exports = function (proxyRes, req, res) {
     require('fs').writeFileSync("./resources/data/sport-score-leagues.json", JSON.stringify(leagues));
   }
 
-  async function syncMatches() {
+  module.exports = async function syncMatches() {
     let axios = require('axios');
     let matches = [];
     let daysOffset = [-7, -6, -5, -4, -3, -2, -1, 0, 1, 2, 3, 4, 5, 6, 7];
@@ -95,7 +95,7 @@ module.exports = function (proxyRes, req, res) {
         "sport":"football",
         "timezone":"+08:00"
       }).then(res => {
-        matches.push(...res.data.data);
+        matches.push({[day]: [...res.data.data]});
       }).catch(err => console.log(err));
     }
     require('fs').writeFileSync("./resources/data/sport-score-matches.json", JSON.stringify(matches));
