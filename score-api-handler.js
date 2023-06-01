@@ -33,23 +33,26 @@ module.exports = function (proxyRes, req, res) {
 
     let matches = require('./resources/data/sport-score-matches.json');
 
-    if(chkLeagues || chkTeams) { 
-      matches = matches.filter(match => {
-        let valid = true;
-        if(chkLeagues)
-          valid &= leagues.includes(match.league_slug);
-        if(chkTeams) {
-          let innerMatches = [];
-          match.matches.forEach(innerMatch => {
-            if(teams.includes(innerMatch.home_team) || teams.includes(innerMatch.away_team))
-              innerMatches.push(innerMatch)
-          });
-          match.matches = innerMatches;
-          valid &= innerMatches.length > 0;
-        }
-        return valid;
-      });
-    }
+     
+    matches = matches.filter(match => {
+      let valid = true;
+      if (!match.matches.length)
+        return false;
+        
+      if(chkLeagues)
+        valid &= leagues.includes(match.league_slug);
+      if(chkTeams) {
+        let innerMatches = [];
+        match.matches.forEach(innerMatch => {
+          if(teams.includes(innerMatch.home_team) || teams.includes(innerMatch.away_team))
+            innerMatches.push(innerMatch)
+        });
+        match.matches = innerMatches;
+        valid &= innerMatches.length > 0;
+      }
+      return valid;
+    });
+    
     
     return matches;
   }
