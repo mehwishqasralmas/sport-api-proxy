@@ -82,7 +82,7 @@ module.exports = function (proxyRes, req, res) {
 
   async function syncMatches() {
     let axios = require('axios');
-    let matches = [];
+    let matches = {};
     let daysOffset = [-7, -6, -5, -4, -3, -2, -1, 0, 1, 2, 3, 4, 5, 6, 7];
     let now = Date.now();
 
@@ -98,7 +98,7 @@ module.exports = function (proxyRes, req, res) {
         "sport":"football",
         "timezone":"+08:00"
       }).then(res => {
-        matches.push({[day]: [...res.data.data]});
+        matches[day] = [...res.data.data];
       }).catch(err => console.log(err));
     }
     require('fs').writeFileSync("./resources/data/sport-score-matches.json", JSON.stringify(matches));
