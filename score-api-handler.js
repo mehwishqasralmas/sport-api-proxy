@@ -1,4 +1,4 @@
-function s (proxyRes, req, res) {
+module.exports = function (proxyRes, req, res) {
     let sportScoreIndx = req.url.indexOf('/api/v1/sportscore');
     let sportScorematchIndx = req.url.indexOf('/data/match');
   
@@ -80,7 +80,7 @@ function s (proxyRes, req, res) {
     require('fs').writeFileSync("./resources/data/sport-score-leagues.json", JSON.stringify(leagues));
   }
 
-  module.exports = async function syncMatches() {
+  async function syncMatches() {
     let axios = require('axios');
     let matches = [];
     let daysOffset = [-7, -6, -5, -4, -3, -2, -1, 0, 1, 2, 3, 4, 5, 6, 7];
