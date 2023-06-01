@@ -15,8 +15,12 @@ module.exports = function (proxyRes, req, res) {
     res.writeHead(200, { 'Content-Type': 'application/json' });
 
     proxyRes.on('end', () => { 
-      if(sportScorematchIndx > -1 && !reqBody.slug)
-        res.end(JSON.stringify(getMatchList(reqBody)));
+      if(sportScorematchIndx > -1 && !reqBody.slug && !reqBody.date)
+        res.end(JSON.stringify({
+          status: 1,
+          message: "Process data success",
+          data: getMatchList(reqBody)
+        }));
       else 
         res.end(Buffer.concat(body).toString());
     });
