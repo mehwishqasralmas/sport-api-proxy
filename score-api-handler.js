@@ -1,4 +1,4 @@
-module.exports = function (proxyRes, req, res) {
+  module.exports = function (proxyRes, req, res) {
     let sportScoreIndx = req.url.indexOf('/api/v1/sportscore');
     let sportScorematchIndx = req.url.indexOf('/data/match');
   
@@ -34,7 +34,7 @@ module.exports = function (proxyRes, req, res) {
     let data = JSON.parse(require('fs').readFileSync(`${__dirname}/resources/data/sport-score-matches.json`));
 
     for(day in data) {
-      let matches = data[day];
+      let matches = data[day].leagues;
       matches = matches.filter(match => {
         let valid = true;
         if (!match.matches.length)
@@ -54,7 +54,7 @@ module.exports = function (proxyRes, req, res) {
         return valid;
       });
       
-     data[day] = matches;
+     data[day].leagues = matches;
     }
     
     return data;
@@ -98,7 +98,7 @@ module.exports = function (proxyRes, req, res) {
         "sport":"football",
         "timezone":"+08:00"
       }).then(res => {
-        matches.push(res.data.data);
+        matches.push({day, leagues: res.data.data});
       }).catch(err => console.log(err));
     }
     require('fs').writeFileSync("./resources/data/sport-score-matches.json", JSON.stringify(matches));
