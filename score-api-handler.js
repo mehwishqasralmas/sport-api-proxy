@@ -31,7 +31,7 @@ module.exports = function (proxyRes, req, res) {
     let chkLeagues = Array.isArray(leagues) && leagues.length;
     let chkTeams = Array.isArray(teams) && teams.length;
 
-    let data = JSON.parse(require('fs').readFileSync('./resources/data/sport-score-matches.json'));
+    let data = JSON.parse(require('fs').readFileSync(`${__dirname}/resources/data/sport-score-matches.json`));
 
     for(day in data) {
       let matches = data[day];
