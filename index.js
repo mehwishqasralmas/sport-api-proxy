@@ -19,7 +19,7 @@ http.createServer(function(req, res) {
 
   
   if(url == '/') {
-    res.writeHead(200).end("API Not Found");
+    res.writeHead(404).end();
     return;
   }
 
