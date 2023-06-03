@@ -41,7 +41,7 @@
           return false;
 
         if(chkLeagues)
-          valid &= leagues.includes(match.league_slug);
+          valid &= leagues.includes(match.league_slug.trim());
         if(chkTeams) {
           let innerMatches = [];
           match.matches.forEach(innerMatch => {
