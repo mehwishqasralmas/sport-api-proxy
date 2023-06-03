@@ -14,12 +14,12 @@
         
     res.writeHead(200, { 'Content-Type': 'application/json' });
 
-    proxyRes.on('end', () => { 
+    proxyRes.on('end', async () => { 
       if(sportScorematchIndx > -1 && !reqBody.slug && !reqBody.date)
         res.end(JSON.stringify({
           status: 1,
           message: "Process data success",
-          data: getMatchList(reqBody)
+          data: await getMatchList(reqBody)
         }));
       else 
         res.end(Buffer.concat(body).toString());
@@ -27,12 +27,17 @@
   };
 
 
-  function getMatchList({leagues, teams, lang}) {
+  async function getMatchList({leagues, teams, lang, specificDay}) {
     let chkLeagues = Array.isArray(leagues) && leagues.length;
     let chkTeams = Array.isArray(teams) && teams.length;
     lang = lang || "en";
-
-    let data = JSON.parse(require('fs').readFileSync(`${__dirname}/resources/data/sport-score-matches-${lang}.json`));
+    let data = [];
+    
+    if(specificDay)
+      data = await syncMatches(lang, specificDay);
+    
+    else
+      data = JSON.parse(require('fs').readFileSync(`${__dirname}/resources/data/sport-score-matches-${lang}.json`));
 
     for(day in data) {
       let matches = data[day].leagues;
@@ -87,7 +92,7 @@
     require('fs').writeFileSync("./resources/data/sport-score-leagues.json", JSON.stringify(leagues));
   }
 
-  async function syncMatches(lang) {
+  async function syncMatches(lang, specificDay) {
     let axios = require('axios');
     let matches = [];
     let daysOffset = [-7, -6, -5, -4, -3, -2, -1, 0, 1, 2, 3, 4, 5, 6, 7];
@@ -99,6 +104,7 @@
       let day = `${date.getFullYear()}-` 
       day += `0${date.getMonth() + 1}`.slice(-2);
       day += '-' + `0${date.getDate()}`.slice(-2);
+      day = specificDay ? specificDay : day;
 
       await axios.post("https://app.8com.cloud/api/v1/sportscore/data/match.php", {
         "lang": lang,
@@ -108,7 +114,11 @@
       }).then(res => {
         matches.push({day, leagues: res.data.data});
       }).catch(err => console.log(err));
+
+      if(specificDay)
+        return matches;
     }
+
     require('fs').writeFileSync(`./resources/data/sport-score-matches-${lang}.json`, JSON.stringify(matches));
   }
 
