@@ -36,12 +36,13 @@
     for(day in data) {
       let matches = data[day].leagues;
       matches = matches.filter(match => {
-        let valid = true;
         if (!match.matches.length)
           return false;
 
-        if(chkLeagues)
-          valid &= leagues.includes(match.league_slug.trim());
+        if(chkLeagues && leagues.includes(match.league_slug.trim())) {
+          return true;
+        }
+
         if(chkTeams) {
           let innerMatches = [];
           match.matches.forEach(innerMatch => {
@@ -49,9 +50,14 @@
               innerMatches.push(innerMatch)
           });
           match.matches = innerMatches;
-          valid &= innerMatches.length > 0;
+          if(innerMatches.length > 0)
+            return true;
         }
-        return valid;
+
+        if(chkLeagues || chkTeams)
+          return false;
+
+        return true;
       });
       
      data[day].leagues = matches;
