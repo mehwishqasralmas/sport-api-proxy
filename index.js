@@ -17,7 +17,13 @@ http.createServer(function(req, res) {
   let challengSportIndex = url.indexOf('/challenges-sport');
   let sportScoreIndx = url.indexOf('/api/v1/sportscore');
 
-  if(url == '/api/sc/player/details') {   
+  
+  if(url == '/') {
+    res.writeHead(404).end();
+    return;
+  }
+
+  else if(url == '/api/sc/player/details') {   
     req.on("data", data => {
       data = data.toString();
       try {data = JSON.parse(data);} catch(er) {};
