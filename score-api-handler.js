@@ -27,11 +27,12 @@
   };
 
 
-  function getMatchList({leagues, teams}) {
+  function getMatchList({leagues, teams, lang}) {
     let chkLeagues = Array.isArray(leagues) && leagues.length;
     let chkTeams = Array.isArray(teams) && teams.length;
+    lang = lang || "en";
 
-    let data = JSON.parse(require('fs').readFileSync(`${__dirname}/resources/data/sport-score-matches.json`));
+    let data = JSON.parse(require('fs').readFileSync(`${__dirname}/resources/data/sport-score-matches-${lang}.json`));
 
     for(day in data) {
       let matches = data[day].leagues;
@@ -86,11 +87,12 @@
     require('fs').writeFileSync("./resources/data/sport-score-leagues.json", JSON.stringify(leagues));
   }
 
-  async function syncMatches() {
+  async function syncMatches(lang) {
     let axios = require('axios');
     let matches = [];
     let daysOffset = [-7, -6, -5, -4, -3, -2, -1, 0, 1, 2, 3, 4, 5, 6, 7];
     let now = Date.now();
+    lang = lang || "en";
 
     for(offset of daysOffset) {
       let date = new Date(now + (offset * 24 * 60 * 60 * 1000));
@@ -99,7 +101,7 @@
       day += '-' + `0${date.getDate()}`.slice(-2);
 
       await axios.post("https://app.8com.cloud/api/v1/sportscore/data/match.php", {
-        "lang":"en",
+        "lang": lang,
         "date": day,
         "sport":"football",
         "timezone":"+08:00"
@@ -107,6 +109,6 @@
         matches.push({day, leagues: res.data.data});
       }).catch(err => console.log(err));
     }
-    require('fs').writeFileSync("./resources/data/sport-score-matches.json", JSON.stringify(matches));
+    require('fs').writeFileSync(`./resources/data/sport-score-matches-${lang}.json`, JSON.stringify(matches));
   }
 
