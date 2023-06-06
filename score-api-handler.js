@@ -93,7 +93,7 @@
         console.log(lastPage + " out of " + totalPages);
       }).catch(err => console.log(err));
   
-    require('fs').writeFileSync("./resources/data/sport-score-leagues.json", JSON.stringify(leagues));
+    require('fs').writeFileSync(`${__dirname}/resources/data/sport-score-leagues.json`, JSON.stringify(leagues));
   }
 
   async function syncMatches(lang, specificDay) {
@@ -121,7 +121,7 @@
         "lang": lang,
         "date": day,
         "sport":"football",
-        "timezone":"+08:00"
+        "timezone":"+04:00"
       }).then(res => {
         matches.push({day, leagues: res.data.data});
       }).catch(err => console.log(err));
@@ -140,7 +140,7 @@
 
   function checkNeedMatchesUpdate(lang) {
     let fs = require('fs');
-    let updateInfo = fs.readFileSync('./resources/data/update-matches-info.json');
+    let updateInfo = fs.readFileSync(`${__dirname}/resources/data/update-matches-info.json`);
 
     if(updateInfo) {
       try { 
@@ -162,7 +162,7 @@
 
   function refreshMatchUpdateInfo(lang) {
     let fs = require('fs');
-    let path = './resources/data/update-matches-info.json';
+    let path = `${__dirname}/resources/data/update-matches-info.json`;
     let updateInfo = fs.readFileSync(path, 'utf8');
     lang = lang || "en";
 
