@@ -30,7 +30,7 @@
 
 
   async function getMatchList({leagues, teams, lang, specificDay}) {
-    let chkLeagues = Array.isArray(leagues) && leagues.length;
+    let chkLeagues = Array.isArray(leagues);
     let chkTeams = Array.isArray(teams) && teams.length;
     lang = lang || "en";
     let data = [];
@@ -49,7 +49,7 @@
         if (!match.matches.length)
           return false;
 
-        if(chkLeagues && leagues.includes(match.league_slug.trim())) {
+        if(chkLeagues && (!leagues.length || leagues.includes(match.league_slug.trim()))) {
           return true;
         }
 
