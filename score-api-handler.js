@@ -1,3 +1,5 @@
+  let syncMatchesRunning = false;
+  
   module.exports = function (proxyRes, req, res) {
     let sportScoreIndx = req.url.indexOf('/api/v1/sportscore');
     let sportScorematchIndx = req.url.indexOf('/data/match');
@@ -36,8 +38,10 @@
     if(specificDay)
       data = await syncMatches(lang, specificDay);
     
-    else
+    else {
+      syncMatches(lang);
       data = JSON.parse(require('fs').readFileSync(`${__dirname}/resources/data/sport-score-matches-${lang}.json`));
+    }
 
     for(day in data) {
       let matches = data[day].leagues;
@@ -94,10 +98,17 @@
 
   async function syncMatches(lang, specificDay) {
     let axios = require('axios');
+    let fs = require('fs');
     let matches = [];
     let daysOffset = [-7, -6, -5, -4, -3, -2, -1, 0, 1, 2, 3, 4, 5, 6, 7];
     let now = Date.now();
     lang = lang || "en";
+
+    if(syncMatchesRunning || (!specificDay && !checkNeedMatchesUpdate(lang))) {
+      return;
+    }
+
+    syncMatchesRunning = true;
 
     for(offset of daysOffset) {
       let date = new Date(now + (offset * 24 * 60 * 60 * 1000));
@@ -115,10 +126,57 @@
         matches.push({day, leagues: res.data.data});
       }).catch(err => console.log(err));
 
-      if(specificDay)
+      if(specificDay) {
+        syncMatchesRunning = false;
         return matches;
+      }
     }
 
-    require('fs').writeFileSync(`./resources/data/sport-score-matches-${lang}.json`, JSON.stringify(matches));
+    syncMatchesRunning = false;
+    fs.writeFileSync(`./resources/data/sport-score-matches-${lang}.json`, JSON.stringify(matches));
+    
+    refreshMatchUpdateInfo(lang);
   }
 
+  function checkNeedMatchesUpdate(lang) {
+    let fs = require('fs');
+    let updateInfo = fs.readFileSync('./resources/data/update-matches-info.json');
+
+    if(updateInfo) {
+      try { 
+        updateInfo = JSON.parse(updateInfo); 
+      } catch(err) {}
+      
+
+      if(updateInfo[lang] && updateInfo[lang].lastUpdateDate) {
+        lastUpdateDate = new Date(updateInfo[lang].lastUpdateDate);
+        if(lastUpdateDate.getMonth() == new Date().getMonth() && 
+          lastUpdateDate.getDate() == new Date().getDate()) {
+            return false;
+        }
+      }
+    }
+
+    return true;
+  }
+
+  function refreshMatchUpdateInfo(lang) {
+    let fs = require('fs');
+    let path = './resources/data/update-matches-info.json';
+    let updateInfo = fs.readFileSync(path, 'utf8');
+    lang = lang || "en";
+
+    if(updateInfo) {
+      try { 
+        updateInfo = JSON.parse(updateInfo); 
+      } catch(err) {console.log(err)}
+    } else {
+      updateInfo = {
+        "en": {lastUpdateDate: ""},
+        "zh": {lastUpdateDate: ""}
+      };
+    }
+
+    updateInfo[lang].lastUpdateDate = new Date().toUTCString();
+    fs.writeFileSync(path, JSON.stringify(updateInfo));
+  }
