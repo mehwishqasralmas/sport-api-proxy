@@ -133,7 +133,7 @@
     }
 
     syncMatchesRunning = false;
-    fs.writeFileSync(`./resources/data/sport-score-matches-${lang}.json`, JSON.stringify(matches));
+    fs.writeFileSync(`${__dirname}/resources/data/sport-score-matches-${lang}.json`, JSON.stringify(matches));
     
     refreshMatchUpdateInfo(lang);
   }
