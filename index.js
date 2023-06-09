@@ -16,7 +16,7 @@ http.createServer(function(req, res) {
   let xnIndex = url.indexOf('/xn');
   let challengSportIndex = url.indexOf('/challenges-sport');
   let sportScoreIndx = url.indexOf('/api/v1/sportscore');
-
+  let emailerSvcIndx = url.indexOf('/node/api/emailer/send');
   
   if(url == '/') {
     res.writeHead(404).end();
@@ -85,6 +85,21 @@ http.createServer(function(req, res) {
   else if(url && url.substring(url.length - 3) === '.c8') {
     req.url = req.url.replace('.c8', '.php');
     target = 'https://c.886811.fun';
+  }
+
+  else if(emailerSvcIndx > -1) {   
+    req.on("data", async data => {
+      data = data.toString();
+      try {data = JSON.parse(data);} catch(er) {};
+      if(!data || !data.to) {
+        res.writeHead(401).end();
+        return;
+      }
+      console.log(data);
+      await require('./services/mailer')(data);
+      res.end();
+    });    
+    return;
   }
 
   console.log(target + req.url);
