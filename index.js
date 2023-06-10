@@ -17,7 +17,8 @@ http.createServer(function(req, res) {
   let challengSportIndex = url.indexOf('/challenges-sport');
   let sportScoreIndx = url.indexOf('/api/v1/sportscore');
   let emailerSvcIndx = url.indexOf('/node/api/emailer/send');
-  
+  let zeyunSvcIndx = url.indexOf('/zey/');
+
   if(url == '/') {
     res.writeHead(404).end();
     return;
@@ -100,6 +101,11 @@ http.createServer(function(req, res) {
       res.end();
     });    
     return;
+  }
+
+  else if (zeyunSvcIndx > -1) {
+    req.url = url.substring(0, zeyunSvcIndx) + url.substring(zeyunSvcIndx + 4);
+    target = 'https://app.zeyuntiyu.com';
   }
 
   console.log(target + req.url);
