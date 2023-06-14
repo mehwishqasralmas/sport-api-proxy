@@ -57,7 +57,7 @@ http.createServer(function(req, res) {
 
   else if(app8Index > -1) {
     url = url.substring(0, app8Index) + url.substring(app8Index + 5) + '.php';
-    target = 'http://datasport.one';
+    target = 'https://datasport.one';
     req.url = url;
   }
 
@@ -75,7 +75,7 @@ http.createServer(function(req, res) {
 
   else if(url && url.substring(url.length - 2) === 'ph') {
     req.url += 'p';
-    target = 'http://datasport.one';
+    target = 'https://datasport.one';
   }
 
   else if(url && url.substring(url.length - 3) === '.tj') {
