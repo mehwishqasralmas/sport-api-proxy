@@ -18,7 +18,7 @@ http.createServer(function(req, res) {
   let sportScoreIndx = url.indexOf('/api/v1/sportscore');
   let emailerSvcIndx = url.indexOf('/node/api/emailer/send');
   let zeyunSvcIndx = url.indexOf('/zey/');
-
+  
   if(url == '/') {
     res.writeHead(404).end();
     return;
@@ -57,7 +57,7 @@ http.createServer(function(req, res) {
 
   else if(app8Index > -1) {
     url = url.substring(0, app8Index) + url.substring(app8Index + 5) + '.php';
-    target = 'http://app.8com.cloud';
+    target = 'http://datasport.one';
     req.url = url;
   }
 
@@ -75,7 +75,7 @@ http.createServer(function(req, res) {
 
   else if(url && url.substring(url.length - 2) === 'ph') {
     req.url += 'p';
-    target = 'http://app.8com.cloud';
+    target = 'http://datasport.one';
   }
 
   else if(url && url.substring(url.length - 3) === '.tj') {
@@ -112,6 +112,7 @@ http.createServer(function(req, res) {
   
   if(sportScoreIndx > -1) {
     selfHandleResponse = true;
+    req.headers["accept-encoding"] = '';
     req.body = [];
     req.on("data", data => {req.body.push(data);});
   }
