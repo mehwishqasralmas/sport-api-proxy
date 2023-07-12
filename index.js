@@ -9,7 +9,7 @@ proxy.on('proxyRes', require('./score-api-handler'));
 http.createServer(function(req, res) {
 
   let url = req.url;
-  let encryptAPIIndx = url.indexOf('/encapi/');
+  let encryptAPIIndx = url.indexOf('/encapi');
 
   if(url == '/') {
     res.writeHead(404).end();
@@ -17,7 +17,8 @@ http.createServer(function(req, res) {
   }
 
   if(encryptAPIIndx > -1) {
-    url = url.substring(0, encryptAPIIndx) + url.substring(encryptAPIIndx + 8);
+    let encryptURIParamIndx = url.indexOf('?data=');
+    url = url.substring(encryptURIParamIndx + 6);
     req.url = url = CryptSvc.decrypt(url);
   }
  
