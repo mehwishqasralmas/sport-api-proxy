@@ -2,12 +2,25 @@ const http      = require('http');
 const httpProxy = require('http-proxy');
 const proxy     = httpProxy.createProxyServer({});
 const fs = require('fs');
+const CryptSvc = require('./services/crypt');
 
 proxy.on('proxyRes', require('./score-api-handler'));
 
 http.createServer(function(req, res) {
 
   let url = req.url;
+  let encryptAPIIndx = url.indexOf('/encapi/');
+
+  if(url == '/') {
+    res.writeHead(404).end();
+    return;
+  }
+
+  if(encryptAPIIndx > -1) {
+    url = url.substring(0, encryptAPIIndx) + url.substring(encryptAPIIndx + 8);
+    req.url = url = CryptSvc.decrypt(url);
+  }
+ 
   let selfHandleResponse = false;
   let target = 'http://77577.live';
   let bbsIndx = url.indexOf('/bbs')
@@ -18,13 +31,8 @@ http.createServer(function(req, res) {
   let sportScoreIndx = url.indexOf('/api/v1/sportscore');
   let emailerSvcIndx = url.indexOf('/node/api/emailer/send');
   let zeyunSvcIndx = url.indexOf('/zey/');
-  
-  if(url == '/') {
-    res.writeHead(404).end();
-    return;
-  }
-
-  else if(url == '/api/sc/player/details') {   
+ 
+  if(url == '/api/sc/player/details') {   
     req.on("data", data => {
       data = data.toString();
       try {data = JSON.parse(data);} catch(er) {};
