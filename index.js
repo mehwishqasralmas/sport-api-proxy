@@ -11,7 +11,7 @@ http.createServer(function(req, res) {
   let url = req.url;
   let encryptAPIIndx = url.indexOf('/encapi');
 
-  if(url == '/') {
+  if(url == '/' || url == '/favicon.ico') {
     res.writeHead(404).end();
     return;
   }
