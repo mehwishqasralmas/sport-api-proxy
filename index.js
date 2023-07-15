@@ -32,6 +32,7 @@ http.createServer(function(req, res) {
   let sportScoreIndx = url.indexOf('/api/v1/sportscore');
   let emailerSvcIndx = url.indexOf('/node/api/emailer/send');
   let zeyunSvcIndx = url.indexOf('/zey/');
+  let privacyPolicyIndx = url.indexOf('/privacy-policy')
  
   if(url == '/api/sc/player/details') {   
     req.on("data", data => {
@@ -50,6 +51,12 @@ http.createServer(function(req, res) {
   else if(url == '/api/sc/players') {
     res.writeHead(200, { 'Content-Type': 'application/json' });
     res.end(fs.readFileSync(`${__dirname}/resources/data/players.json`));
+    return;
+  }
+
+  else if(privacyPolicyIndx > -1) {
+    res.writeHead(200, { 'Content-Type': 'text/html' });
+    res.end(fs.readFileSync(`${__dirname}/resources/views/privacy-policy.html`));
     return;
   }
 
