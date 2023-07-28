@@ -105,7 +105,7 @@ http.createServer(function(req, res) {
   }
 
   else if(sportCardsIndx > -1) {
-    url = url.substring(0, predictionSportIndx) + url.substring(predictionSportIndx + 15);
+    url = url.substring(0, sportCardsIndx) + url.substring(sportCardsIndx + 15);
     target = 'http://localhost:5060';
     req.url = url;
   }
