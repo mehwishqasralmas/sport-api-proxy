@@ -55,15 +55,15 @@ http.createServer(function(req, res) {
     return;
   }
 
-  else if(privacyPolicyIndx > -1) {
-    res.writeHead(200, { 'Content-Type': 'text/html' });
-    res.end(fs.readFileSync(`${__dirname}/resources/views/match-day-sports-privacy-policy.html`));
-    return;
-  }
-
   else if(matchDayPolicyIndx > -1) {
     res.writeHead(200, { 'Content-Type': 'text/html' });
     res.end(fs.readFileSync(`${__dirname}/resources/views/privacy-policy.html`));
+    return;
+  }
+
+  else if(privacyPolicyIndx > -1) {
+    res.writeHead(200, { 'Content-Type': 'text/html' });
+    res.end(fs.readFileSync(`${__dirname}/resources/views/match-day-sports-privacy-policy.html`));
     return;
   }
 
