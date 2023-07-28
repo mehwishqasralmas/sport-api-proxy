@@ -35,6 +35,7 @@ http.createServer(function(req, res) {
   let privacyPolicyIndx = url.indexOf('/privacy-policy');
   let matchDayPolicyIndx = url.indexOf('/match-day-sports/privacy-policy');
   let predictionSportIndx = url.indexOf('/pred-api-sports');
+  let sportCardsIndx = url.indexOf('/sport-api-card');
  
   if(url == '/api/sc/player/details') {   
     req.on("data", data => {
@@ -100,6 +101,12 @@ http.createServer(function(req, res) {
   else if(predictionSportIndx > -1) {
     url = url.substring(0, predictionSportIndx) + url.substring(predictionSportIndx + 16);
     target = 'http://localhost:5057';
+    req.url = url;
+  }
+
+  else if(sportCardsIndx > -1) {
+    url = url.substring(0, predictionSportIndx) + url.substring(predictionSportIndx + 15);
+    target = 'http://localhost:5060';
     req.url = url;
   }
 
