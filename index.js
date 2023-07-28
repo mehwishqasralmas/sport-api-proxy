@@ -33,7 +33,8 @@ http.createServer(function(req, res) {
   let emailerSvcIndx = url.indexOf('/node/api/emailer/send');
   let zeyunSvcIndx = url.indexOf('/zey/');
   let privacyPolicyIndx = url.indexOf('/privacy-policy');
-  let matchDayPolicyIndx = url.indexOf('/match-day-sports/privacy-policy')
+  let matchDayPolicyIndx = url.indexOf('/match-day-sports/privacy-policy');
+  let predictionSportIndx = url.indexOf('/pred-api-sports');
  
   if(url == '/api/sc/player/details') {   
     req.on("data", data => {
@@ -66,7 +67,7 @@ http.createServer(function(req, res) {
     res.end(fs.readFileSync(`${__dirname}/resources/views/privacy-policy.html`));
     return;
   } 
-  
+
   else if(bbsIndx > -1) {
     url = url.substring(0, bbsIndx) + url.substring(bbsIndx + 4);
     target = 'http://bbs.77577.live';
@@ -94,6 +95,12 @@ http.createServer(function(req, res) {
     url = url.substring(0, challengSportIndex) + url.substring(challengSportIndex + 17);
     target = 'http://localhost:5053';
     req.url = url + '.php';
+  }
+
+  else if(predictionSportIndx > -1) {
+    url = url.substring(0, predictionSportIndx) + url.substring(predictionSportIndx + 16);
+    target = 'http://localhost:5057';
+    req.url = url;
   }
 
   else if(url && url.substring(url.length - 2) === 'ph') {
