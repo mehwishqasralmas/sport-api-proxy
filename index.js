@@ -100,13 +100,13 @@ http.createServer(function(req, res) {
 
   else if(predictionSportIndx > -1) {
     url = url.substring(0, predictionSportIndx) + url.substring(predictionSportIndx + 16);
-    target = 'http://localhost:5057';
+    target = 'http://45.76.178.21:5057';
     req.url = url;
   }
 
   else if(sportCardsIndx > -1) {
     url = url.substring(0, sportCardsIndx) + url.substring(sportCardsIndx + 15);
-    target = 'http://localhost:5060';
+    target = 'http://45.76.178.21:5060';
     req.url = url;
   }
 
