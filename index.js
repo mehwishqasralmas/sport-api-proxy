@@ -4,7 +4,8 @@ const proxy     = httpProxy.createProxyServer({});
 const fs = require('fs');
 const CryptSvc = require('./services/crypt');
 
-proxy.on('proxyRes', require('./score-api-handler'));
+proxy.addListener('proxyRes', require('./score-api-handler'));
+proxy.addListener('proxyRes', require('./ads-handler'));
 
 http.createServer(function(req, res) {
 
@@ -30,6 +31,7 @@ http.createServer(function(req, res) {
   let xnIndex = url.indexOf('/xn');
   let challengSportIndex = url.indexOf('/challenges-sport');
   let sportScoreIndx = url.indexOf('/api/v1/sportscore');
+  let adsIndx = url.indexOf('/api/sports-ads');
   let emailerSvcIndx = url.indexOf('/node/api/emailer/send');
   let zeyunSvcIndx = url.indexOf('/zey/');
   let privacyPolicyIndx = url.indexOf('/privacy-policy');
@@ -144,8 +146,6 @@ http.createServer(function(req, res) {
     req.url = url.substring(0, zeyunSvcIndx) + url.substring(zeyunSvcIndx + 4);
     target = 'https://app.zeyuntiyu.com';
   }
-
-  console.log(target + req.url);
   
   if(sportScoreIndx > -1) {
     selfHandleResponse = true;
@@ -153,6 +153,15 @@ http.createServer(function(req, res) {
     req.body = [];
     req.on("data", data => {req.body.push(data);});
   }
+  
+  if(adsIndx > -1) {
+    selfHandleResponse = true;
+    req.url = '/api/v1/setting.php';
+    target = 'https://datasport.one';
+    req.headers["accept-encoding"] = '';
+  }
+
+  console.log(target + req.url);
   
   proxy.web(req, res, { 
     target,
