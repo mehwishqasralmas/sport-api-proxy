@@ -1,8 +1,6 @@
  
-module.exports = function (proxyRes, req, res) {
-  let settingIndx = req.url.indexOf('/api/v1/setting.php');
-  
-  if( settingIndx == -1)
+module.exports = function (proxyRes, req, res) {  
+  if(!req.adsIndx)
     return;
 
   console.log("SPORT ADS HANDLER");
@@ -16,7 +14,11 @@ module.exports = function (proxyRes, req, res) {
   proxyRes.on('end', async () => { 
     body = body.length ? JSON.parse(Buffer.concat(body).toString()) : {};
     console.log(body);
-    newBody = {};
+    newBody = {ads: [
+     { img: "", url: "https://sm.pcmag.com/pcmag_au/review/a/apple-ios-/apple-ios-13_gerx.png" },
+     { img: "", url: "https://sm.pcmag.com/pcmag_au/review/a/apple-ios-/apple-ios-13_gerx.png" },
+     { img: "", url: "https://sm.pcmag.com/pcmag_au/review/a/apple-ios-/apple-ios-13_gerx.png" }
+    ]};
     if(Array.isArray(body.mapping) && body.mapping.length) {
       newBody.ads = [];
       body.mapping.forEach(ad => newBody.ads.push({img: "", url: ad.redirect_url}));

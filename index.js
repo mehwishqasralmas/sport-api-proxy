@@ -31,7 +31,7 @@ http.createServer(function(req, res) {
   let xnIndex = url.indexOf('/xn');
   let challengSportIndex = url.indexOf('/challenges-sport');
   let sportScoreIndx = url.indexOf('/api/v1/sportscore');
-  let adsIndx = url.indexOf('/api/sports-ads');
+  let adsIndx = url.indexOf('/api/server-ads');
   let emailerSvcIndx = url.indexOf('/node/api/emailer/send');
   let zeyunSvcIndx = url.indexOf('/zey/');
   let privacyPolicyIndx = url.indexOf('/privacy-policy');
@@ -159,10 +159,11 @@ http.createServer(function(req, res) {
     req.url = '/api/v1/setting.php';
     target = 'https://datasport.one';
     req.headers["accept-encoding"] = '';
+    req.adsIndx = true;
   }
 
   console.log(target + req.url);
-  
+
   proxy.web(req, res, { 
     target,
     changeOrigin: true,
