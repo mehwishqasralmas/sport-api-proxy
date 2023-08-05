@@ -39,7 +39,7 @@ http.createServer(function(req, res) {
   let predictionSportIndx = url.indexOf('/pred-api-sports');
   let sportCardsIndx = url.indexOf('/sport-api-card');
   let allSportsIndx = url.indexOf('/all-sports');
- 
+  
   if(url == '/api/sc/player/details') {   
     req.on("data", data => {
       data = data.toString();
@@ -113,7 +113,7 @@ http.createServer(function(req, res) {
     req.url = url;
   }
 
-  else if(allSportsIndx) {
+  else if(allSportsIndx > -1) {
     url = url.substring(0, allSportsIndx) + url.substring(allSportsIndx + 11);
     target = 'http://107.151.150.20:7003';
     req.url = url;
