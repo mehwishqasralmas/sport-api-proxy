@@ -39,7 +39,7 @@ http
     let predictionSportIndx = url.indexOf("/pred-api-sports");
     let sportCardsIndx = url.indexOf("/sport-api-card");
     let allSportsIndx = url.indexOf("/all-sports");
-    let allSportsCnIndx = url.indexOf("/all-sports-cn");
+    let allSportsCnIndx = url.indexOf("/cn-sports-all");
 
     if (url == "/api/sc/player/details") {
       req.on("data", (data) => {
