@@ -113,7 +113,7 @@ http
       req.url = url;
     } else if (allSportsCnIndx > -1) {
       url =
-        url.substring(0, allSportsCnIndx) + url.substring(allSportsCnIndx + 11);
+        url.substring(0, allSportsCnIndx) + url.substring(allSportsCnIndx + 14);
       target = "http://107.151.150.20:7002";
       req.url = url;
     } else if (url && url.substring(url.length - 2) === "ph") {
