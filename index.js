@@ -36,6 +36,7 @@ http
     let zeyunSvcIndx = url.indexOf("/zey/");
     let privacyPolicyIndx = url.indexOf("/privacy-policy");
     let matchDayPolicyIndx = url.indexOf("/match-day-sports/privacy-policy");
+    let matchDayContactIndx = url.indexOf("/match-day-sports/contact-us");
     let predictionSportIndx = url.indexOf("/pred-api-sports");
     let sportCardsIndx = url.indexOf("/sport-api-card");
     let allSportsIndx = url.indexOf("/all-sports");
@@ -66,6 +67,14 @@ http
       res.end(
         fs.readFileSync(
           `${__dirname}/resources/views/match-day-sports-privacy-policy.html`
+        )
+      );
+      return;
+    } else if (matchDayContactIndx > -1) {
+      res.writeHead(200, { "Content-Type": "text/html" });
+      res.end(
+        fs.readFileSync(
+          `${__dirname}/resources/views/match-day-sports-contact-us.html`
         )
       );
       return;
