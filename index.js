@@ -143,7 +143,7 @@ http
     } else if (zeyunSvcIndx > -1) {
       req.url =
         url.substring(0, zeyunSvcIndx) + url.substring(zeyunSvcIndx + 4);
-      target = "https://app.zeyuntiyu.com";
+      target = "https://zeyuapi.com/v1";
     }
 
     if (sportScoreIndx > -1) {
