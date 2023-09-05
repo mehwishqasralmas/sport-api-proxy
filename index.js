@@ -126,6 +126,7 @@ http
       target = "http://107.151.150.20:7002";
       req.url = url;
     } else if (url && url.substring(url.length - 2) === "ph") {
+      console.log(req.headers['x-forwarded-for'], req.socket.remoteAddress);
       req.url += "p";
       if(req.url.indexOf("setting.php") > -1)
         req.url += `?ip=${req.headers['x-forwarded-for'] || req.socket.remoteAddress}`;
