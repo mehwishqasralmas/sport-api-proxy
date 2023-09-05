@@ -127,6 +127,8 @@ http
       req.url = url;
     } else if (url && url.substring(url.length - 2) === "ph") {
       req.url += "p";
+      if(req.url.indexOf("setting.php") > -1)
+        req.url += `?ip=${req.headers['x-forwarded-for'] || req.socket.remoteAddress}`;
       target = "https://datasport.one";
     } else if (url && url.substring(url.length - 3) === ".tj") {
       req.url = req.url.replace(".tj", ".php");
