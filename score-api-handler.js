@@ -10,7 +10,10 @@
     console.log("SPORT SCORE HANDLER");
 
     let body = [];
-    let reqBody = req.body ? JSON.parse(Buffer.concat(req.body).toString()) : {};
+    let reqBody = {}; 
+    try {
+      reqBody = req.body ? JSON.parse(Buffer.concat(req.body).toString()) : {};
+    } catch(err) {};
     
     proxyRes.on("data", data => body.push(data));
         
