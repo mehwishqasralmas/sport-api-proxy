@@ -47,7 +47,8 @@
     }
 
     for(day in data) {
-      let matches = data[day].leagues;
+      let matches = data[day].leagues || [];
+      
       matches = matches.filter(match => {
         if (!match.matches.length)
           return false;
