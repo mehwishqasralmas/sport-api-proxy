@@ -42,6 +42,7 @@ http
     let allSportsIndx = url.indexOf("/all-sports");
     let allSportsCnIndx = url.indexOf("/cn-sports-all");
     let streetMatchIndx = url.indexOf("/sm/");
+    let tennisGrandSlamIndx = url.indexOf("/tgsh/");
 
     if (url == "/api/sc/player/details") {
       req.on("data", (data) => {
@@ -162,6 +163,11 @@ http
         url.substring(0, streetMatchIndx) +
         url.substring(streetMatchIndx + 3);
       target = "https://gsports.cloud";
+    } else if (tennisGrandSlamIndx > -1) {
+      req.url =
+        url.substring(0, tennisGrandSlamIndx) +
+        url.substring(tennisGrandSlamIndx + 5);
+      target = "http://199.241.1.88:5040";
     } 
 
     if (sportScoreIndx > -1) {
