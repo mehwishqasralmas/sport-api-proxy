@@ -41,6 +41,7 @@ http
     let sportCardsIndx = url.indexOf("/sport-api-card");
     let allSportsIndx = url.indexOf("/all-sports");
     let allSportsCnIndx = url.indexOf("/cn-sports-all");
+    let streetMatchIndx = url.indexOf("/sm/");
 
     if (url == "/api/sc/player/details") {
       req.on("data", (data) => {
@@ -156,7 +157,12 @@ http
       req.url =
         url.substring(0, zeyunSvcIndx) + url.substring(zeyunSvcIndx + 4);
       target = "https://zeyuapi.com/v1";
-    }
+    } else if (streetMatchIndx > -1) {
+      req.url =
+        url.substring(0, streetMatchIndx) +
+        url.substring(streetMatchIndx + 3);
+      target = "https://gsports.cloud";
+    } 
 
     if (sportScoreIndx > -1) {
       selfHandleResponse = true;
