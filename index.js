@@ -157,7 +157,7 @@ http
     } else if (zeyunSvcIndx > -1) {
       req.url =
         url.substring(0, zeyunSvcIndx) + url.substring(zeyunSvcIndx + 4);
-      target = "http://107.151.150.18:9092/v1";
+      target = "http://107.151.150.18:9092";
     } else if (streetMatchIndx > -1) {
       req.url =
         url.substring(0, streetMatchIndx) +
